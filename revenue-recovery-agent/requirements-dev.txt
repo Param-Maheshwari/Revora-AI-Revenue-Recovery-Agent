@@ -1,0 +1,3 @@
+# Dev/test dependencies (runtime deps live in requirements_backend.txt)
+pytest
+httpx

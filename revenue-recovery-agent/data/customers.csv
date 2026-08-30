@@ -1,0 +1,61 @@
+customer_id,name,formality_preference,past_payment_behavior,contact_preference,opted_out
+CUST0001,Suresh Nair,formal,usually pays late,sms,False
+CUST0002,Neha Patel,formal,usually pays on time,email,False
+CUST0003,Manish Rao,neutral,usually pays late,sms,False
+CUST0004,Kavita Gupta,casual,first-time failure,sms,True
+CUST0005,Rohan Das,casual,first-time failure,sms,False
+CUST0006,Rohan Patel,casual,first-time failure,sms,False
+CUST0007,Arjun Verma,neutral,usually pays late,sms,True
+CUST0008,Kavita Iyer,casual,usually pays on time,sms,False
+CUST0009,Rahul Nair,formal,usually pays on time,sms,True
+CUST0010,Amit Singh,neutral,frequent failures,sms,False
+CUST0011,Aditya Sharma,casual,usually pays on time,sms,True
+CUST0012,Anjali Mehta,casual,usually pays late,sms,True
+CUST0013,Manish Rao,formal,usually pays on time,sms,False
+CUST0014,Anjali Singh,neutral,first-time failure,sms,False
+CUST0015,Meera Rao,formal,usually pays on time,sms,False
+CUST0016,Rahul Nair,casual,usually pays on time,email,False
+CUST0017,Rohan Das,formal,usually pays late,email,False
+CUST0018,Karan Kumar,casual,first-time failure,sms,False
+CUST0019,Pooja Mehta,casual,frequent failures,sms,False
+CUST0020,Nisha Das,neutral,usually pays on time,email,False
+CUST0021,Sneha Verma,formal,usually pays on time,sms,False
+CUST0022,Anjali Nair,formal,frequent failures,sms,True
+CUST0023,Arjun Das,casual,first-time failure,email,False
+CUST0024,Sneha Kapoor,casual,usually pays on time,sms,False
+CUST0025,Manish Reddy,formal,usually pays late,sms,False
+CUST0026,Arjun Gupta,casual,usually pays on time,email,False
+CUST0027,Suresh Nair,casual,usually pays late,sms,False
+CUST0028,Priya Iyer,neutral,frequent failures,email,False
+CUST0029,Neha Reddy,neutral,usually pays on time,sms,False
+CUST0030,Divya Verma,neutral,first-time failure,sms,False
+CUST0031,Neha Nair,casual,usually pays late,sms,False
+CUST0032,Aditya Nair,casual,usually pays on time,email,False
+CUST0033,Arjun Das,casual,usually pays late,email,False
+CUST0034,Meera Reddy,casual,frequent failures,sms,True
+CUST0035,Anjali Reddy,casual,first-time failure,sms,True
+CUST0036,Nisha Rao,neutral,usually pays late,email,False
+CUST0037,Arjun Gupta,casual,usually pays on time,email,False
+CUST0038,Divya Kapoor,formal,frequent failures,sms,False
+CUST0039,Anjali Das,neutral,usually pays on time,email,False
+CUST0040,Neha Nair,casual,first-time failure,sms,False
+CUST0041,Sneha Kumar,neutral,usually pays on time,sms,False
+CUST0042,Divya Rao,neutral,frequent failures,sms,False
+CUST0043,Aditya Gupta,casual,first-time failure,sms,False
+CUST0044,Meera Singh,neutral,usually pays late,sms,False
+CUST0045,Nisha Das,casual,usually pays on time,sms,False
+CUST0046,Sneha Das,casual,usually pays on time,sms,False
+CUST0047,Priya Nair,casual,usually pays on time,sms,False
+CUST0048,Sanjay Joshi,casual,usually pays on time,sms,False
+CUST0049,Suresh Nair,formal,usually pays on time,email,False
+CUST0050,Vikram Patel,casual,frequent failures,sms,False
+CUST0051,Suresh Nair,neutral,frequent failures,sms,False
+CUST0052,Pooja Reddy,formal,usually pays on time,sms,False
+CUST0053,Suresh Patel,casual,usually pays late,sms,False
+CUST0054,Kavita Rao,formal,frequent failures,sms,False
+CUST0055,Neha Singh,neutral,usually pays on time,email,False
+CUST0056,Kavita Verma,casual,first-time failure,sms,False
+CUST0057,Sanjay Rao,neutral,usually pays on time,sms,True
+CUST0058,Sanjay Iyer,casual,usually pays on time,sms,False
+CUST0059,Sanjay Sharma,casual,usually pays on time,email,False
+CUST0060,Manish Gupta,neutral,first-time failure,sms,False

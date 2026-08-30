@@ -1,0 +1,35 @@
+{
+  "total_payments": 150,
+  "total_amount_at_risk": 370570.2,
+  "total_amount_recovered": 108428.34,
+  "overall_recovery_rate_pct": 29.3,
+  "recovery_rate_by_tone": {
+    "empathetic": {
+      "messages_sent": 21,
+      "recovered_count": 13,
+      "recovery_rate_pct": 61.9,
+      "amount_at_risk": 54100.94,
+      "amount_recovered": 33088.16
+    },
+    "formal": {
+      "messages_sent": 14,
+      "recovered_count": 11,
+      "recovery_rate_pct": 78.6,
+      "amount_at_risk": 24343.55,
+      "amount_recovered": 19764.97
+    },
+    "casual": {
+      "messages_sent": 17,
+      "recovered_count": 14,
+      "recovery_rate_pct": 82.4,
+      "amount_at_risk": 43565.43,
+      "amount_recovered": 35922.67
+    }
+  },
+  "blocked_by_compliance_count": 7,
+  "exceptions_count": 0,
+  "assumptions": {
+    "promise_keep_rate_source": "varies by customer past_payment_behavior \u2014 see promise_tracker.py KEEP_RATE_BY_BEHAVIOR",
+    "auto_retry_note": "auto_retry actions are excluded from recovery-rate metrics \u2014 they're a technical fix, not a customer-facing recovery intervention"
+  }
+}

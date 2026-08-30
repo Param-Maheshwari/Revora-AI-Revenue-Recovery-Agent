@@ -1,0 +1,151 @@
+payment_id,amount,final_action,chosen_tone,recovered,recovery_path
+PAY00001,1301.08,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00002,3921.83,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00003,3677.79,send_update_reminder,empathetic,False,not recovered
+PAY00004,998.51,offer_payment_plan,empathetic,True,paid after keeping promise
+PAY00005,1831.44,send_soft_reminder,formal,True,paid immediately after message
+PAY00006,3745.48,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00007,2007.82,send_soft_reminder,casual,True,paid immediately after message
+PAY00008,4405.89,send_update_reminder,casual,True,paid after keeping promise
+PAY00009,3003.85,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00010,1591.49,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00011,3386.16,send_update_reminder,empathetic,True,paid immediately after message
+PAY00012,3528.43,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00013,1034.94,deferred,casual,False,promise broken -> escalated to reminder
+PAY00014,2285.61,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00015,3219.45,human_handoff,formal,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00016,2613.29,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00017,2494.22,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00018,1199.31,send_update_reminder,formal,True,paid immediately after message
+PAY00019,2481.0,deferred,casual,True,paid after keeping promise
+PAY00020,1325.75,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00021,3881.17,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00022,497.34,send_soft_reminder,formal,True,paid immediately after message
+PAY00023,247.65,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00024,882.0,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00025,3118.68,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00026,3942.03,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00027,3295.05,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00028,2879.07,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00029,4079.32,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00030,1499.71,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00031,3088.23,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00032,2242.93,send_update_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00033,4596.45,send_update_reminder,casual,True,paid after keeping promise
+PAY00034,1823.75,send_update_reminder,casual,True,paid immediately after message
+PAY00035,1122.39,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00036,1245.73,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00037,1078.15,offer_payment_plan,formal,False,promise broken -> escalated to reminder
+PAY00038,4240.14,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00039,1399.92,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00040,1402.9,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00041,4175.62,send_soft_reminder,empathetic,True,paid immediately after message
+PAY00042,1778.77,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00043,2866.77,send_update_reminder,empathetic,True,paid immediately after message
+PAY00044,249.61,send_update_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00045,3927.08,send_soft_reminder,formal,True,paid immediately after message
+PAY00046,626.19,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00047,2617.89,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00048,826.45,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00049,4091.64,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00050,2874.44,send_soft_reminder,casual,False,promise broken -> escalated to reminder
+PAY00051,814.9,deferred,empathetic,True,paid immediately after message
+PAY00052,1029.34,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00053,2232.45,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00054,1987.6,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00055,845.15,deferred,empathetic,True,paid immediately after message
+PAY00056,3048.3,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00057,846.46,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00058,2829.94,send_soft_reminder,casual,True,paid after keeping promise
+PAY00059,2283.22,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00060,2597.98,send_update_reminder,formal,True,paid immediately after message
+PAY00061,4630.94,human_handoff,formal,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00062,509.22,send_soft_reminder,empathetic,True,paid after keeping promise
+PAY00063,2582.76,send_update_reminder,empathetic,True,paid after keeping promise
+PAY00064,1084.39,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00065,1646.62,send_update_reminder,formal,False,not recovered
+PAY00066,3867.56,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00067,3978.89,send_update_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00068,1051.26,send_update_reminder,formal,True,paid immediately after message
+PAY00069,2500.24,send_soft_reminder,casual,True,paid immediately after message
+PAY00070,964.22,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00071,1996.79,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00072,3222.23,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00073,2861.75,send_update_reminder,casual,True,paid immediately after message
+PAY00074,3910.11,send_update_reminder,empathetic,True,paid after keeping promise
+PAY00075,4875.51,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00076,1836.41,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00077,2299.99,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00078,1730.47,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00079,3516.29,send_update_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00080,3064.38,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00081,4830.84,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00082,4464.74,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00083,4676.91,human_handoff,formal,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00084,3024.96,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00085,4798.25,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00086,1081.74,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00087,1369.66,send_soft_reminder,casual,True,paid after keeping promise
+PAY00088,4031.44,send_soft_reminder,empathetic,True,paid after keeping promise
+PAY00089,3595.31,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00090,2452.73,send_update_reminder,casual,True,paid after keeping promise
+PAY00091,3615.32,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00092,4804.84,deferred,casual,True,paid immediately after message
+PAY00093,4207.86,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00094,733.98,send_soft_reminder,casual,False,promise broken -> escalated to reminder
+PAY00095,2854.9,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00096,1114.21,send_soft_reminder,formal,True,paid after keeping promise
+PAY00097,3349.7,deferred,formal,True,paid after keeping promise
+PAY00098,1579.52,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00099,2270.66,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00100,1719.26,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00101,1229.43,offer_payment_plan,formal,True,paid after keeping promise
+PAY00102,2341.32,send_soft_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00103,4862.6,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00104,4947.07,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00105,791.0,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00106,3939.38,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00107,2659.37,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00108,3073.07,send_update_reminder,empathetic,True,paid immediately after message
+PAY00109,3137.69,send_update_reminder,formal,True,paid immediately after message
+PAY00110,2505.3,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00111,3021.26,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00112,3448.4,send_soft_reminder,empathetic,True,paid immediately after message
+PAY00113,2690.3,send_update_reminder,casual,True,paid immediately after message
+PAY00114,3802.35,send_soft_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00115,1021.63,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00116,4034.34,send_soft_reminder,casual,False,promise broken -> escalated to reminder
+PAY00117,545.29,human_handoff,empathetic,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00118,3223.75,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00119,1205.75,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00120,3550.52,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00121,1231.23,send_soft_reminder,empathetic,True,paid immediately after message
+PAY00122,267.45,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00123,2066.81,send_update_reminder,casual,True,paid immediately after message
+PAY00124,4171.62,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00125,3390.58,deferred,empathetic,True,paid immediately after message
+PAY00126,4972.77,human_handoff,empathetic,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00127,1853.81,send_update_reminder,formal,False,promise broken -> escalated to reminder
+PAY00128,3589.06,send_soft_reminder,casual,True,paid after keeping promise
+PAY00129,1682.24,send_update_reminder,casual,True,paid immediately after message
+PAY00130,1046.03,send_soft_reminder,casual,True,paid after keeping promise
+PAY00131,1203.6,send_update_reminder,empathetic,False,promise broken -> escalated to reminder
+PAY00132,3966.37,deferred,casual,True,paid immediately after message
+PAY00133,2470.38,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00134,3714.18,deferred,casual,False,blocked by compliance gate -> outside allowed messaging window (9:00-20:00) — simulated attempt at 04:00
+PAY00135,3531.95,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00136,2321.81,send_update_reminder,empathetic,True,paid immediately after message
+PAY00137,2502.42,auto_retry,empathetic,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00138,1701.96,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00139,352.22,deferred,formal,False,promise broken -> escalated to reminder
+PAY00140,247.59,send_soft_reminder,formal,True,paid immediately after message
+PAY00141,2406.2,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00142,553.06,send_update_reminder,empathetic,True,paid after keeping promise
+PAY00143,2603.41,human_handoff,empathetic,False,blocked by compliance gate -> opt-out respected — customer opted out of messaging
+PAY00144,951.08,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00145,2931.64,send_update_reminder,formal,True,paid immediately after message
+PAY00146,1238.77,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00147,479.64,auto_retry,casual,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00148,3271.31,deferred,formal,False,promise broken -> escalated to reminder
+PAY00149,661.08,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"
+PAY00150,1287.5,auto_retry,formal,False,"auto_retry (technical, not counted as recovery intervention)"

@@ -1,0 +1,151 @@
+payment_id,customer_id,predicted_category,amount,chosen_action,chosen_tone,chooser_reasoning
+PAY00001,CUST0054,transient,1301.08,auto_retry,formal,Automatically retrying the payment due to a temporary system malfunction. Your payment will be attempted again shortly.
+PAY00002,CUST0043,transient,3921.83,auto_retry,casual,"A temporary technical issue has been identified, we're automatically retrying your payment."
+PAY00003,CUST0053,customer_action_needed,3677.79,send_update_reminder,empathetic,The card associated with your account has expired. Please update your payment details to avoid any interruption of service.
+PAY00004,CUST0003,risk_flag,998.51,offer_payment_plan,empathetic,"Due to repeated payment failures, we recommend offering a flexible payment plan to help resolve the issue."
+PAY00005,CUST0049,risk_flag,1831.44,send_soft_reminder,formal,The payment of Rs 1831.44 could not be processed due to insufficient funds. We understand that these situations can arise and kindly request you to make the necessary arrangements at your earliest convenience.
+PAY00006,CUST0028,transient,3745.48,auto_retry,empathetic,A temporary technical issue at the issuing bank likely caused this failure. We will automatically retry the payment.
+PAY00007,CUST0047,risk_flag,2007.82,send_soft_reminder,casual,"Customer usually pays on time, sending a soft reminder for this instance of insufficient funds"
+PAY00008,CUST0016,customer_action_needed,4405.89,send_update_reminder,casual,Customer needs to update expired card details
+PAY00009,CUST0024,transient,3003.85,auto_retry,casual,"The transaction seems to have been a temporary issue, let's retry it."
+PAY00010,CUST0057,transient,1591.49,auto_retry,empathetic,"This is a transient failure, safe to auto-retry due to the customer's usual on-time payments."
+PAY00011,CUST0039,customer_action_needed,3386.16,send_update_reminder,empathetic,Card expiration requires the customer to update their card details
+PAY00012,CUST0040,transient,3528.43,auto_retry,casual,Retrying the transaction as the error 91 suggests a temporary issue with the issuing bank's response.
+PAY00013,CUST0027,customer_action_needed,1034.94,send_update_reminder,casual,"Customer has made a late payment in the past and the current payment failure is due to an invalid CVV, which might need their attention"
+PAY00014,CUST0017,transient,2285.61,auto_retry,formal,"As per your stated preference and considering your past payment behavior, we are auto-retrying the payment. We will make another attempt in accordance with our standard procedures."
+PAY00015,CUST0009,risk_flag,3219.45,send_soft_reminder,formal,"Customer usually pays on time, but this time they might have faced a temporary issue. A gentle reminder is appropriate."
+PAY00016,CUST0028,transient,2613.29,auto_retry,empathetic,"Automatically retrying due to transient issue, while acknowledging the customer's recent payment difficulties."
+PAY00017,CUST0015,transient,2494.22,auto_retry,formal,Diagnosed as transient failure. Retry will be automatic after a short delay.
+PAY00018,CUST0015,customer_action_needed,1199.31,send_update_reminder,formal,The OTP entered for the transaction was not confirmed within the given timeframe. Please re-enter the OTP to complete the payment process.
+PAY00019,CUST0058,risk_flag,2481.0,send_soft_reminder,casual,"Customer usually pays on time but has insufficient funds, gentle reminder needed"
+PAY00020,CUST0017,transient,1325.75,auto_retry,formal,This is a transient failure and will be automatically retried due to the customer's past late payments.
+PAY00021,CUST0005,transient,3881.17,auto_retry,casual,"Transient failure, will auto-retry"
+PAY00022,CUST0002,risk_flag,497.34,send_soft_reminder,formal,"This is a suspected fraud case, requiring a softer approach to maintain a formal relationship with the customer."
+PAY00023,CUST0012,transient,247.65,auto_retry,casual,"Temporary network issue, will attempt auto-retry"
+PAY00024,CUST0008,transient,882.0,auto_retry,casual,"Given the transient nature of the failure and the customer's history of on-time payments, we will automatically retry the payment."
+PAY00025,CUST0002,transient,3118.68,auto_retry,formal,"Due to the transient nature of the payment failure and the customer's history of timely payments, it is appropriate to auto-retry the payment."
+PAY00026,CUST0057,transient,3942.03,auto_retry,empathetic,"This is a transient issue, safe to auto-retry due to the customer's past payment behavior and the diagnosed category."
+PAY00027,CUST0040,transient,3295.05,auto_retry,casual,Retrying the payment due to a temporary technical issue.
+PAY00028,CUST0047,transient,2879.07,auto_retry,casual,"Diagnosed as transient failure, payment will be retried automatically."
+PAY00029,CUST0017,transient,4079.32,auto_retry,formal,"The payment failure appears to be transient, safe to auto-retry."
+PAY00030,CUST0015,transient,1499.71,auto_retry,formal,"As per your past payment behavior and the transient nature of the failure, we will automatically retry the payment."
+PAY00031,CUST0043,transient,3088.23,auto_retry,casual,"Diagnosed as a transient failure, safe to automatically retry"
+PAY00032,CUST0019,customer_action_needed,2242.93,send_update_reminder,empathetic,The one-time passcode was not entered in the required time for the transaction. Let's ensure we don't miss out on this payment.
+PAY00033,CUST0016,customer_action_needed,4596.45,send_update_reminder,casual,"The card seems to have expired, please update your payment details for smooth transactions."
+PAY00034,CUST0018,customer_action_needed,1823.75,send_update_reminder,casual,"First-time failure, reminding the customer about the missed payment in a casual tone."
+PAY00035,CUST0041,transient,1122.39,auto_retry,empathetic,"The payment failure appears to be transient due to a system malfunction, therefore it is safe to automatically retry."
+PAY00036,CUST0002,transient,1245.73,auto_retry,formal,Diagnosed as a transient failure. Retrying the payment due to a network error during authorization.
+PAY00037,CUST0054,risk_flag,1078.15,offer_payment_plan,formal,"Due to repeated failed payments, a flexible payment plan is being offered to assist you."
+PAY00038,CUST0046,transient,4240.14,auto_retry,casual,"Network issue during the last transaction, retrying automatically."
+PAY00039,CUST0005,transient,1399.92,auto_retry,casual,"Network error during authorization indicates a temporary technical issue, safe to auto-retry"
+PAY00040,CUST0047,transient,1402.9,auto_retry,casual,"As you usually pay on time, we're auto-retrying this payment. If there's any issue, please let us know."
+PAY00041,CUST0014,risk_flag,4175.62,send_soft_reminder,empathetic,First-time failure with a risk flag. A gentle reminder to help facilitate a smooth payment process.
+PAY00042,CUST0030,transient,1778.77,auto_retry,empathetic,Transient failure with first-time payment issue. Auto-retrying the payment.
+PAY00043,CUST0039,customer_action_needed,2866.77,send_update_reminder,empathetic,The customer needs to be reminded to enter the correct CVV for the payment of Rs 2866.77.
+PAY00044,CUST0051,customer_action_needed,249.61,send_update_reminder,empathetic,The card associated with your account has expired. Please update your payment details to avoid any disruption of service.
+PAY00045,CUST0013,risk_flag,3927.08,send_soft_reminder,formal,"Soft approach due to risk_flag and low retry_count, and aligning with the customer's stated preference for formal communication."
+PAY00046,CUST0046,transient,626.19,auto_retry,casual,"As per your payment history and the current diagnosed category, we're automatically retrying the payment."
+PAY00047,CUST0014,transient,2617.89,auto_retry,empathetic,"Diagnosed as transient failure, safe to auto-retry."
+PAY00048,CUST0040,transient,826.45,auto_retry,casual,"Since it's a transient failure and it's your first time failing a payment, we will automatically retry the transaction."
+PAY00049,CUST0059,transient,4091.64,auto_retry,casual,This appears to be a temporary technical issue. We'll automatically retry the payment.
+PAY00050,CUST0031,risk_flag,2874.44,send_soft_reminder,casual,"Due to repeated late payments, we'd like to discuss a payment plan to ensure you avoid any service interruptions."
+PAY00051,CUST0039,customer_action_needed,814.9,send_update_reminder,empathetic,The payment failure is due to an invalid CVV entered. Please update your payment details to complete the transaction.
+PAY00052,CUST0036,transient,1029.34,auto_retry,empathetic,Retrying the payment due to a transient network error. We understand it might have been a temporary issue.
+PAY00053,CUST0019,transient,2232.45,auto_retry,casual,"Diagnosed as a transient failure, let's try again."
+PAY00054,CUST0031,transient,1987.6,auto_retry,casual,"Transient failure. System malfunction resolved, safe to auto-retry."
+PAY00055,CUST0014,risk_flag,845.15,send_soft_reminder,empathetic,First-time failure with risk_flag. A gentle reminder is appropriate to address the issue.
+PAY00056,CUST0024,transient,3048.3,auto_retry,casual,"As per your payment history and the transient diagnosis, we'll automatically retry the payment."
+PAY00057,CUST0018,transient,846.46,auto_retry,casual,"This is a transient issue, and the payment will be automatically retried."
+PAY00058,CUST0043,risk_flag,2829.94,send_soft_reminder,casual,"As this is the first time we've encountered a payment issue with you, we wanted to reach out casually to confirm everything is okay and help resolve this minor hiccup."
+PAY00059,CUST0036,transient,2283.22,auto_retry,empathetic,"Diagnosed as a transient failure, automatically retrying the payment."
+PAY00060,CUST0015,customer_action_needed,2597.98,send_update_reminder,formal,Customer's payment failure is due to an expired card. A formal reminder is sent to update the payment information.
+PAY00061,CUST0009,customer_action_needed,4630.94,send_update_reminder,formal,Customer needs to update their expired card details to complete the payment
+PAY00062,CUST0060,risk_flag,509.22,send_soft_reminder,empathetic,"To ensure we can resolve the issue and avoid future disruptions, we'd like to discuss your recent payment decline."
+PAY00063,CUST0042,customer_action_needed,2582.76,send_update_reminder,empathetic,"The payment failure indicates a need for an update. The customer's repeated failures suggest potential difficulties, thus requiring an empathetic approach."
+PAY00064,CUST0039,transient,1084.39,auto_retry,empathetic,"Transient failure, payment will be automatically retried due to potential system malfunction."
+PAY00065,CUST0054,customer_action_needed,1646.62,send_update_reminder,formal,"Customer's card has expired, a reminder is needed for them to update the card details."
+PAY00066,CUST0055,transient,3867.56,auto_retry,empathetic,"Diagnosed as transient failure, auto-retry is appropriate"
+PAY00067,CUST0010,customer_action_needed,3978.89,send_update_reminder,empathetic,The card associated with your account appears to have expired. Please update your payment information to avoid any disruptions in service.
+PAY00068,CUST0013,customer_action_needed,1051.26,send_update_reminder,formal,The card reportedly expired. Please update your payment details to avoid service disruption.
+PAY00069,CUST0047,risk_flag,2500.24,send_soft_reminder,casual,"Give the customer a gentle nudge for this first failed payment attempt due to insufficient funds, considering their usually timely payments."
+PAY00070,CUST0015,transient,964.22,auto_retry,formal,"Transient failure, safely retrying payment"
+PAY00071,CUST0023,transient,1996.79,auto_retry,casual,This is a temporary network error. We're retrying your payment automatically.
+PAY00072,CUST0030,transient,3222.23,auto_retry,empathetic,"This is a transient failure, safe to auto-retry due to temporary system malfunction."
+PAY00073,CUST0045,customer_action_needed,2861.75,send_update_reminder,casual,"Customer usually pays on time, but OTP was not entered within the given time frame. Let's remind them to take care of this."
+PAY00074,CUST0051,customer_action_needed,3910.11,send_update_reminder,empathetic,The card associated with your account has reportedly expired. Please update your payment details to avoid service disruptions.
+PAY00075,CUST0046,transient,4875.51,auto_retry,casual,"Transient failure. Bank issue not responding, safe to retry."
+PAY00076,CUST0046,transient,1836.41,auto_retry,casual,"Given the diagnosed category and the customer's past payment behavior, it's safe to auto-retry the payment"
+PAY00077,CUST0025,transient,2299.99,auto_retry,formal,"Network error during authorization is a temporary technical issue, the payment will be automatically retried."
+PAY00078,CUST0041,transient,1730.47,auto_retry,empathetic,"Transient failure, system malfunction. Auto-retry is appropriate."
+PAY00079,CUST0010,customer_action_needed,3516.29,send_update_reminder,empathetic,"The card associated with your account has expired, please update your payment details to avoid any interruption of service."
+PAY00080,CUST0030,transient,3064.38,auto_retry,empathetic,"Transient failure, system malfunction. Automatic retry initiated."
+PAY00081,CUST0050,transient,4830.84,auto_retry,casual,The gateway timeout suggests a temporary technical issue. We'll retry the payment shortly.
+PAY00082,CUST0032,transient,4464.74,auto_retry,casual,"Since the customer usually pays on time and this is a transient failure, we will automatically retry the payment."
+PAY00083,CUST0009,risk_flag,4676.91,send_soft_reminder,formal,"Due to repeated declines by the issuing bank, we kindly request an update on the status of your payment. We appreciate your timely attention to this matter."
+PAY00084,CUST0056,transient,3024.96,auto_retry,casual,"Transient failure, safe to auto-retry as it's a first-time issue"
+PAY00085,CUST0017,transient,4798.25,auto_retry,formal,"Following the rules of thumb, transient failures should be automatically retried after a short delay. The customer's history shows late payments and formal preference, so a formal tone is appropriate."
+PAY00086,CUST0014,transient,1081.74,auto_retry,empathetic,"This is a transient failure, safe to auto-retry due to first-time payment failure"
+PAY00087,CUST0023,risk_flag,1369.66,send_soft_reminder,casual,First-time failure. Sending a soft reminder to remind about the due payment.
+PAY00088,CUST0003,risk_flag,4031.44,send_soft_reminder,empathetic,"Due to the risk flag and the customer's history of paying late, a soft reminder is recommended to encourage on-time payment."
+PAY00089,CUST0054,transient,3595.31,auto_retry,formal,"Based on the diagnosis, we will automatically retry the payment as it is a transient failure."
+PAY00090,CUST0031,customer_action_needed,2452.73,send_update_reminder,casual,Card has expired and needs to be updated. Please refresh your card details.
+PAY00091,CUST0060,transient,3615.32,auto_retry,empathetic,"The payment failure appears to be transient, caused by a temporary system malfunction. Retrying the payment is the best course of action."
+PAY00092,CUST0024,customer_action_needed,4804.84,send_update_reminder,casual,"Customer's card has expired, need to update the card details for successful payment."
+PAY00093,CUST0053,transient,4207.86,auto_retry,casual,"Network error indicates a temporary issue, we'll try again automatically."
+PAY00094,CUST0005,risk_flag,733.98,send_soft_reminder,casual,"First-time failure, providing gentle reminder to avoid potential confusion."
+PAY00095,CUST0055,transient,2854.9,auto_retry,empathetic,"This is a transient issue, likely a temporary technical error. Retrying the payment is the best course of action."
+PAY00096,CUST0001,risk_flag,1114.21,send_soft_reminder,formal,Customer has a history of late payments and this is the first attempt for insufficient funds. A soft reminder is appropriate to prompt payment.
+PAY00097,CUST0038,risk_flag,3349.7,send_soft_reminder,formal,"This is a potential risk case with a high retry count, hence we are offering a soft reminder to address the issue."
+PAY00098,CUST0031,transient,1579.52,auto_retry,casual,"Due to a temporary technical issue from the issuing bank, we'll automatically retry the payment"
+PAY00099,CUST0016,transient,2270.66,auto_retry,casual,"This is a transient failure, will attempt automatic retry."
+PAY00100,CUST0012,transient,1719.26,auto_retry,casual,"This is a temporary technical issue, we'll automatically retry the payment."
+PAY00101,CUST0054,risk_flag,1229.43,offer_payment_plan,formal,Repeated failures suggest a payment issue. Offering a flexible payment plan is appropriate.
+PAY00102,CUST0027,risk_flag,2341.32,send_soft_reminder,empathetic,"Due to your past payment behavior, we would like to gently remind you about the pending payment of Rs 2341.32. We understand you might be facing some financial difficulties."
+PAY00103,CUST0046,transient,4862.6,auto_retry,casual,"Diagnosed as transient, retrying payment automatically as per policy"
+PAY00104,CUST0046,transient,4947.07,auto_retry,casual,"Diagnosed as transient, safe to retry automatically as customer usually pays on time."
+PAY00105,CUST0011,transient,791.0,auto_retry,casual,The payment attempt failed due to a temporary technical issue. Let's try again automatically.
+PAY00106,CUST0059,transient,3939.38,auto_retry,casual,"As per your past payment behavior and considering this as a transient network error, we are attempting to retry the payment automatically."
+PAY00107,CUST0028,transient,2659.37,auto_retry,empathetic,"Temporary technical issue at the issuing bank, we'll attempt to process your payment again."
+PAY00108,CUST0020,customer_action_needed,3073.07,send_update_reminder,empathetic,The card you used for payment has reportedly expired. Please update your card details to continue the service.
+PAY00109,CUST0021,customer_action_needed,3137.69,send_update_reminder,formal,The payment failure is due to an invalid CVV. Please verify and update your payment details to ensure a seamless transaction.
+PAY00110,CUST0014,transient,2505.3,auto_retry,empathetic,"Transient failure, safe to auto-retry as per diagnosis"
+PAY00111,CUST0041,transient,3021.26,auto_retry,empathetic,"Transient failure detected, automatically retrying your payment. We understand it might be a temporary technical issue."
+PAY00112,CUST0014,risk_flag,3448.4,send_soft_reminder,empathetic,"The payment attempt failed, and it might be a temporary issue. We'd like to confirm the payment details to help resolve this."
+PAY00113,CUST0018,customer_action_needed,2690.3,send_update_reminder,casual,"First-time failure, customer needs to update their expired card details"
+PAY00114,CUST0060,risk_flag,3802.35,send_soft_reminder,empathetic,"As this is a first-time failure and there's a risk flag, we wanted to reach out in a non-pushy manner to understand the situation better."
+PAY00115,CUST0057,transient,1021.63,auto_retry,empathetic,"Transient failure, auto-retrying based on diagnosis and the customer's past payment behavior"
+PAY00116,CUST0027,risk_flag,4034.34,send_soft_reminder,casual,The payment for Rs 4034.34 is pending. Kindly settle the amount at your earliest convenience.
+PAY00117,CUST0057,risk_flag,545.29,send_soft_reminder,empathetic,The payment failed due to a potential risk or fraud signal. We'd like to assure you that we're here to help. Let's work together to resolve this issue.
+PAY00118,CUST0024,transient,3223.75,auto_retry,casual,"As per your past payment behavior and the temporary issue with your bank, we're automatically retrying your payment. Let's hope this one goes through!"
+PAY00119,CUST0011,transient,1205.75,auto_retry,casual,"The payment issue appears temporary, we'll automatically retry the transaction."
+PAY00120,CUST0038,transient,3550.52,auto_retry,formal,The payment is temporarily declined due to a system malfunction. We are auto-retrying the payment.
+PAY00121,CUST0030,risk_flag,1231.23,send_soft_reminder,empathetic,"A soft reminder is suitable given the customer's first-time failure and the risk flag, aiming to be understanding."
+PAY00122,CUST0018,transient,267.45,auto_retry,casual,"Transient failure, will retry automatically"
+PAY00123,CUST0018,customer_action_needed,2066.81,send_update_reminder,casual,Customer_action_needed due to invalid CVV entry. Please double-check and try again.
+PAY00124,CUST0035,transient,4171.62,auto_retry,casual,"As per your preference and considering this as a first-time failure, we'll attempt another transaction. Let's hope this time it goes smoothly!"
+PAY00125,CUST0039,risk_flag,3390.58,send_soft_reminder,empathetic,Repeated insufficient fund attempts indicate potential risk. Soft reminder is more appropriate to encourage payment without being pushy.
+PAY00126,CUST0057,customer_action_needed,4972.77,send_update_reminder,empathetic,The customer needs a reminder to complete the OTP entry for successful payment.
+PAY00127,CUST0038,customer_action_needed,1853.81,send_update_reminder,formal,"The payment failure indicates an issue with the CVV entered, a formal reminder is being sent to update the payment information."
+PAY00128,CUST0008,risk_flag,3589.06,send_soft_reminder,casual,Customer usually pays on time but faced an issue this time. Let's remind them gently.
+PAY00129,CUST0037,customer_action_needed,1682.24,send_update_reminder,casual,Customer usually pays on time. This failure is due to an expired card
+PAY00130,CUST0059,risk_flag,1046.03,send_soft_reminder,casual,Customer usually pays on time but has shown a risk flag. Let's gently remind them about the missed payment.
+PAY00131,CUST0028,customer_action_needed,1203.6,send_update_reminder,empathetic,The CVV entered seems to be incorrect. Please double-check and try again to ensure a smooth payment process.
+PAY00132,CUST0006,risk_flag,3966.37,send_soft_reminder,casual,"First-time failure, a gentle reminder to complete the payment"
+PAY00133,CUST0005,transient,2470.38,auto_retry,casual,"This is a transient failure, so we're going to try again automatically."
+PAY00134,CUST0058,customer_action_needed,3714.18,send_update_reminder,casual,The card you used for payment has expired. Please update your payment details for a smooth transaction.
+PAY00135,CUST0031,transient,3531.95,auto_retry,casual,"Diagnosed as a transient failure, retrying automatically due to network error."
+PAY00136,CUST0014,customer_action_needed,2321.81,send_update_reminder,empathetic,Customer needs to update their expired card details
+PAY00137,CUST0060,transient,2502.42,auto_retry,empathetic,"This is a transient failure, the payment will be automatically retried."
+PAY00138,CUST0025,transient,1701.96,auto_retry,formal,"Diagnosed as transient failure, will auto-retry."
+PAY00139,CUST0038,risk_flag,352.22,send_soft_reminder,formal,The transaction was flagged for suspected fraud and requires further review. We are reaching out to provide you with more information on how to proceed with your payment.
+PAY00140,CUST0052,risk_flag,247.59,send_soft_reminder,formal,"Customer usually pays on time, but the account has insufficient funds. A gentle reminder is warranted."
+PAY00141,CUST0008,transient,2406.2,auto_retry,casual,"Given the transient category diagnosis and the customer's usual on-time payments, it is appropriate to automatically retry the payment."
+PAY00142,CUST0044,customer_action_needed,553.06,send_update_reminder,empathetic,Customer's card has expired and a replacement is needed. Please update your payment information at the earliest.
+PAY00143,CUST0034,risk_flag,2603.41,send_soft_reminder,empathetic,Repeated failed payments indicate a potential issue. Let's gently remind the customer about the outstanding amount to help resolve this.
+PAY00144,CUST0048,transient,951.08,auto_retry,casual,This is a transient failure. We'll retry the payment automatically.
+PAY00145,CUST0013,customer_action_needed,2931.64,send_update_reminder,formal,The payment of Rs 2931.64 is overdue due to the OTP not being entered within the given time. Please enter the OTP to complete the payment process.
+PAY00146,CUST0056,transient,1238.77,auto_retry,casual,"Due to a temporary technical issue, we will attempt to retry the payment."
+PAY00147,CUST0033,transient,479.64,auto_retry,casual,Giving another try due to temporary technical issue
+PAY00148,CUST0017,risk_flag,3271.31,send_soft_reminder,formal,Sending a soft reminder due to customer's history of late payments and the current risk_flag diagnosis
+PAY00149,CUST0013,transient,661.08,auto_retry,formal,"Automatically retrying the payment due to temporary network error during authorization, as per the diagnosed category. The customer usually pays on time."
+PAY00150,CUST0052,transient,1287.5,auto_retry,formal,"Diagnosed as a transient failure, thus we will automatically retry the payment."
