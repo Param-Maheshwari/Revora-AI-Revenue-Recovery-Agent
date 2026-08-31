@@ -77,9 +77,9 @@ revenue-recovery-dashboard/    # Next.js frontend
   └── app/
       ├── page.tsx             # Overview — headline metrics, tone comparison chart
       ├── live/                # Upload a CSV, watch the agent process it live
-      ├── payments/            # All payments + per-payment agent trace
-      ├── compare/             # Same failure category, different tone, different outcome
-      └── audit/               # Every compliance-blocked action, and why
+      ├── payments/             # All payments + per-payment agent trace
+      ├── compare/              # Same failure category, different tone, different outcome
+      └── audit/                # Every compliance-blocked action, and why
 ```
 
 ---
@@ -155,27 +155,27 @@ On a synthetic batch of **150 payments**:
 | Metric | Value |
 |---|---|
 | Total amount at risk | ₹3,70,570 |
-| Total amount recovered | ₹86,549 |
-| Overall recovery rate | 23.4% |
-| Blocked by compliance gate | 18 |
+| Total amount recovered | ₹99,120 |
+| Overall recovery rate | 26.7% |
+| Blocked by compliance gate | 17 |
 | Exceptions | 0 |
 
 ### Recovery rate by message tone
 
 | Tone | Recovery rate | Sample |
 |---|---|---|
-| Casual | 80.0% | 16/20 |
-| Formal | 71.4% | 10/14 |
-| Empathetic | 64.7% | 11/17 |
+| Casual | 88.2% | 15/17 |
+| Formal | 85.7% | 12/14 |
+| Empathetic | 57.1% | 12/21 |
 
 **The more interesting finding is contextual, not a flat ranking.** Broken down by failure category, the best-performing tone changes:
 
-- **"Needs customer action" failures** (e.g. expired card) → **casual** wins (88.9%)
-- **"Risk flag" failures** (repeated failures, fraud signals) → **empathetic** wins (87.5%)
+- **"Needs customer action" failures** (e.g. expired card) → **casual** wins (100%)
+- **"Risk flag" failures** (repeated failures, fraud signals) → **formal** wins (85.7%)
 
-This suggests the right tone depends on *why* the payment failed, not a single universal "best" tone — a risk-flagged customer responds better to a gentler approach, while a routine action-needed customer responds better to a casual nudge.
+This suggests the right tone depends on *why* the payment failed, not a single universal "best" tone — a risk-flagged customer responds better to a direct, formal approach, while a routine action-needed customer responds better to a casual nudge.
 
-*A note on these numbers: recovery outcomes are simulated by an LLM customer-persona reasoning over each message and customer profile, not real customer data. The tone ranking is a measured hypothesis this system generates consistently, not a proven real-world result.*
+*A note on these numbers: recovery outcomes are simulated by an LLM customer-persona reasoning over each message and customer profile, not real customer data. The tone ranking is a measured hypothesis this system generates consistently, not a proven real-world result — and with sample sizes this small (single-digit to low-double-digit per cell), re-running the pipeline can shift individual cell percentages, though the overall pattern of "context changes the best tone" has held across runs.*
 
 ---
 
