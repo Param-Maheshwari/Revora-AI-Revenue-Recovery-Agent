@@ -16,6 +16,7 @@ type StageEvent = {
   recovered?: boolean;
   amount?: number;
   auto_retry?: boolean;
+  message?: string;
 };
 
 type PaymentCard = {
@@ -24,6 +25,8 @@ type PaymentCard = {
   recovered: boolean | null;
   autoRetry: boolean;
   complete: boolean;
+  errored: boolean;
+  errorMessage?: string;
 };
 
 const STAGE_LABELS: Record<string, string> = {
@@ -151,7 +154,7 @@ export default function LivePage() {
       } else if (evt.type === "stage" && evt.payment_id && evt.stage) {
         const pid = evt.payment_id;
         setPayments((prev) => {
-          const existing = prev[pid] || { payment_id: pid, stages: [], recovered: null, autoRetry: false, complete: false };
+          const existing = prev[pid] || { payment_id: pid, stages: [], recovered: null, autoRetry: false, complete: false, errored: false };
           return {
             ...prev,
             [pid]: {
@@ -172,6 +175,19 @@ export default function LivePage() {
           setTotalRecovered((n) => n + 1);
           setTotalRecoveredAmount((n) => n + (evt.amount || 0));
         }
+      } else if (evt.type === "row_error" && evt.payment_id) {
+        const pid = evt.payment_id;
+        setPayments((prev) => ({
+          ...prev,
+          [pid]: {
+            ...(prev[pid] || { payment_id: pid, stages: [], recovered: null, autoRetry: false, complete: false, errored: false }),
+            complete: true,
+            errored: true,
+            errorMessage: evt.message,
+          },
+        }));
+        setOrder((prev) => (prev.includes(pid) ? prev : [pid, ...prev]));
+        setProgress({ done: evt.index || 0, total: evt.total || 0 });
       } else if (evt.type === "job_complete") {
         setRunning(false);
         es.close();
@@ -264,7 +280,12 @@ export default function LivePage() {
             <div key={pid} className="bg-surface border border-border rounded-lg p-4 animate-in">
               <div className="flex items-center justify-between mb-3">
                 <span className="font-mono text-sm text-accent font-medium">{pid}</span>
-                {card.complete && (
+                {card.errored && (
+                  <span className="text-xs font-medium px-2 py-0.5 rounded bg-danger-dim text-danger">
+                    row failed
+                  </span>
+                )}
+                {!card.errored && card.complete && (
                   <span
                     className={`text-xs font-medium px-2 py-0.5 rounded ${
                       card.autoRetry
@@ -290,6 +311,12 @@ export default function LivePage() {
                     <span className="flex-1">{renderStageContent(s.stage, s.data)}</span>
                   </div>
                 ))}
+                {card.errored && card.errorMessage && (
+                  <div className="text-xs flex gap-2">
+                    <span className="text-muted font-medium w-40 shrink-0">Error</span>
+                    <span className="flex-1 text-danger font-mono">{card.errorMessage}</span>
+                  </div>
+                )}
               </div>
             </div>
           );

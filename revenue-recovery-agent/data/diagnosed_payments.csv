@@ -1,151 +1,151 @@
 payment_id,customer_id,amount,status,failure_reason_raw,true_category,retry_count,timestamp,subscription_id,predicted_category,diagnosis_reasoning,diagnosis_correct
-PAY00001,CUST0054,1301.08,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-16,SUB0009,transient,temporary decline due to system malfunction,True
-PAY00002,CUST0043,3921.83,failed,"issuing bank not responding, error 91",transient,0,2026-08-12,,transient,"Issuing bank not responding (error 91) indicates a temporary technical issue, safe to auto-retry",True
-PAY00003,CUST0053,3677.79,failed,card expired,customer_action_needed,2,2026-08-05,,customer_action_needed,The payment failure is due to an expired card,True
-PAY00004,CUST0003,998.51,failed,transaction flagged for suspected fraud,risk_flag,2,2026-08-08,,risk_flag,Repeated payment failure flags the transaction as suspected fraud,True
-PAY00005,CUST0049,1831.44,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,,risk_flag,Insufficient funds - code 51 indicates that the account does not have sufficient balance. A retry at this point may suggest repeated failed attempts.,True
-PAY00006,CUST0028,3745.48,failed,"issuing bank not responding, error 91",transient,0,2026-08-21,,transient,"Issuing bank not responding (error 91) likely indicates a temporary technical issue, safe to auto-retry",True
-PAY00007,CUST0047,2007.82,failed,insufficient funds - code 51,risk_flag,1,2026-08-04,,risk_flag,"Insufficient funds indicated by code 51, may require manual review or customer notification",True
-PAY00008,CUST0016,4405.89,failed,card expired,customer_action_needed,0,2026-08-06,,customer_action_needed,The card has expired and needs to be updated,True
-PAY00009,CUST0024,3003.85,failed,gateway timeout - please retry,transient,0,2026-08-06,SUB0001,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
-PAY00010,CUST0057,1591.49,failed,network error during authorization,transient,1,2026-08-03,SUB0006,transient,"Temporary network error during authorization, safe to auto-retry",True
-PAY00011,CUST0039,3386.16,failed,card reported as expired by issuer,customer_action_needed,2,2026-08-02,SUB0009,customer_action_needed,"The card has been reported as expired by the issuer, requiring the customer to update their card details",True
-PAY00012,CUST0040,3528.43,failed,"issuing bank not responding, error 91",transient,0,2026-08-10,,transient,"The error 91 suggests a temporary issue with the issuing bank's response, safe to auto-retry",True
+PAY00001,CUST0054,1301.08,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-16,SUB0009,transient,temporary decline due to a reported system malfunction,True
+PAY00002,CUST0043,3921.83,failed,"issuing bank not responding, error 91",transient,0,2026-08-12,,transient,"The payment failure reason suggests a temporary issue at the issuing bank (error 91), which is safe to auto-retry.",True
+PAY00003,CUST0053,3677.79,failed,card expired,customer_action_needed,2,2026-08-05,,customer_action_needed,Card has expired and needs to be updated,True
+PAY00004,CUST0003,998.51,failed,transaction flagged for suspected fraud,risk_flag,2,2026-08-08,,risk_flag,Repeated failure and suspected fraud flag,True
+PAY00005,CUST0049,1831.44,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,,risk_flag,Insufficient funds - code 51 indicates the account does not have enough balance to complete the transaction,True
+PAY00006,CUST0028,3745.48,failed,"issuing bank not responding, error 91",transient,0,2026-08-21,,transient,"Issuing bank not responding (error 91) indicates a temporary technical issue, safe to auto-retry",True
+PAY00007,CUST0047,2007.82,failed,insufficient funds - code 51,risk_flag,1,2026-08-04,,risk_flag,Insufficient funds - code 51 indicates that the customer does not have enough funds to complete the transaction.,True
+PAY00008,CUST0016,4405.89,failed,card expired,customer_action_needed,0,2026-08-06,,customer_action_needed,The card has expired and needs to be updated by the customer,True
+PAY00009,CUST0024,3003.85,failed,gateway timeout - please retry,transient,0,2026-08-06,SUB0001,transient,"Temporary gateway timeout, safe to auto-retry",True
+PAY00010,CUST0057,1591.49,failed,network error during authorization,transient,1,2026-08-03,SUB0006,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry.",True
+PAY00011,CUST0039,3386.16,failed,card reported as expired by issuer,customer_action_needed,2,2026-08-02,SUB0009,customer_action_needed,"The card has reportedly expired by the issuer, requiring the customer to update the card details",True
+PAY00012,CUST0040,3528.43,failed,"issuing bank not responding, error 91",transient,0,2026-08-10,,transient,"Issuing bank not responding may be due to temporary technical issues, safe to auto-retry",True
 PAY00013,CUST0027,1034.94,failed,invalid CVV entered,customer_action_needed,1,2026-08-02,SUB0021,customer_action_needed,Invalid CVV entered,True
-PAY00014,CUST0017,2285.61,failed,gateway timeout - please retry,transient,1,2026-08-01,,transient,"Temporary gateway timeout, safe to auto-retry",True
-PAY00015,CUST0009,3219.45,failed,insufficient funds - code 51,risk_flag,0,2026-08-09,SUB0025,risk_flag,"Insufficient funds - code 51 indicates the account does not have sufficient funds to process the payment. A higher retry count might trigger this error, suggesting a potential risk of insufficient funds.",True
-PAY00016,CUST0028,2613.29,failed,gateway timeout - please retry,transient,3,2026-08-15,SUB0019,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
-PAY00017,CUST0015,2494.22,failed,"issuing bank not responding, error 91",transient,1,2026-08-12,,transient,"Payment failure due to issuing bank not responding, safe to auto-retry after a short delay",True
-PAY00018,CUST0015,1199.31,failed,authentication failed - OTP not entered in time,customer_action_needed,2,2026-08-14,,customer_action_needed,"OTP not entered within the given time, user needs to re-enter OTP",True
-PAY00019,CUST0058,2481.0,failed,insufficient funds - code 51,risk_flag,2,2026-08-06,,risk_flag,Insufficient funds indicated by code 51 and multiple retries,True
-PAY00020,CUST0017,1325.75,failed,gateway timeout - please retry,transient,1,2026-08-14,SUB0018,transient,"Temporary gateway timeout, safe to auto-retry",True
-PAY00021,CUST0005,3881.17,failed,network error during authorization,transient,0,2026-08-07,SUB0021,transient,"Temporary network error during authorization, safe to auto-retry",True
-PAY00022,CUST0002,497.34,failed,transaction flagged for suspected fraud,risk_flag,0,2026-08-02,,risk_flag,Payment failure due to suspected fraud,True
-PAY00023,CUST0012,247.65,failed,network error during authorization,transient,1,2026-08-07,,transient,"Temporary network error during authorization, safe to auto-retry",True
-PAY00024,CUST0008,882.0,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-09,SUB0002,transient,"temporary decline (code 96) indicates a system malfunction, safe to auto-retry",True
-PAY00025,CUST0002,3118.68,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0011,transient,"Issuing bank not responding may be due to a temporary network issue, safe to auto-retry",True
-PAY00026,CUST0057,3942.03,failed,"issuing bank not responding, error 91",transient,0,2026-08-06,SUB0011,transient,"Issuing bank not responding (error 91) suggests a temporary technical issue, safe to auto-retry",True
-PAY00027,CUST0040,3295.05,failed,gateway timeout - please retry,transient,1,2026-08-14,SUB0028,transient,"Gateway timeout, indicating a temporary technical issue. Retry is safe.",True
-PAY00028,CUST0047,2879.07,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-18,,transient,"temporary decline due to system malfunction, safe to auto-retry",True
+PAY00014,CUST0017,2285.61,failed,gateway timeout - please retry,transient,1,2026-08-01,,transient,"The payment failure is due to a temporary gateway timeout, it is safe to auto-retry.",True
+PAY00015,CUST0009,3219.45,failed,insufficient funds - code 51,risk_flag,0,2026-08-09,SUB0025,risk_flag,"Insufficient funds indicated by code 51, suggesting a potential risk of the payment not being successful",True
+PAY00016,CUST0028,2613.29,failed,gateway timeout - please retry,transient,3,2026-08-15,SUB0019,transient,"Gateway timeout suggests a temporary technical issue, safe to auto-retry",True
+PAY00017,CUST0015,2494.22,failed,"issuing bank not responding, error 91",transient,1,2026-08-12,,transient,"The payment failure is due to the issuing bank not responding, which is likely a temporary technical issue. It's safe to auto-retry.",True
+PAY00018,CUST0015,1199.31,failed,authentication failed - OTP not entered in time,customer_action_needed,2,2026-08-14,,customer_action_needed,OTP not entered in time,True
+PAY00019,CUST0058,2481.0,failed,insufficient funds - code 51,risk_flag,2,2026-08-06,,risk_flag,Repeated payment failure due to insufficient funds - code 51 indicates possible customer financial difficulties or incorrect entry.,True
+PAY00020,CUST0017,1325.75,failed,gateway timeout - please retry,transient,1,2026-08-14,SUB0018,transient,"Temporary gateway timeout, safe to auto-retry.",True
+PAY00021,CUST0005,3881.17,failed,network error during authorization,transient,0,2026-08-07,SUB0021,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True
+PAY00022,CUST0002,497.34,failed,transaction flagged for suspected fraud,risk_flag,0,2026-08-02,,risk_flag,The transaction was flagged for suspected fraud,True
+PAY00023,CUST0012,247.65,failed,network error during authorization,transient,1,2026-08-07,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00024,CUST0008,882.0,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-09,SUB0002,transient,"temporary decline due to system malfunction, safe to auto-retry",True
+PAY00025,CUST0002,3118.68,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0011,transient,"Payment failure due to issuing bank temporary non-responsiveness, retry is safe after a delay.",True
+PAY00026,CUST0057,3942.03,failed,"issuing bank not responding, error 91",transient,0,2026-08-06,SUB0011,transient,"issuing bank not responding, error 91 indicates a temporary issue at the bank's end, safe to auto-retry",True
+PAY00027,CUST0040,3295.05,failed,gateway timeout - please retry,transient,1,2026-08-14,SUB0028,transient,"Temporary gateway timeout, safe to auto-retry.",True
+PAY00028,CUST0047,2879.07,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-18,,transient,"temporary decline (code 96) indicates a system malfunction, safe to auto-retry",True
 PAY00029,CUST0017,4079.32,failed,network error during authorization,transient,0,2026-08-08,SUB0002,transient,"Temporary network error during authorization, safe to auto-retry",True
 PAY00030,CUST0015,1499.71,failed,gateway timeout - please retry,transient,0,2026-08-20,SUB0015,transient,"Temporary gateway timeout, safe to auto-retry",True
 PAY00031,CUST0043,3088.23,failed,gateway timeout - please retry,transient,0,2026-08-13,SUB0001,transient,"Temporary gateway timeout, safe to auto-retry",True
-PAY00032,CUST0019,2242.93,failed,authentication failed - OTP not entered in time,customer_action_needed,3,2026-08-11,,customer_action_needed,OTP not entered in time,True
-PAY00033,CUST0016,4596.45,failed,card expired,customer_action_needed,0,2026-08-07,SUB0030,customer_action_needed,The card has expired and needs to be updated,True
-PAY00034,CUST0018,1823.75,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-01,SUB0003,customer_action_needed,OTP not entered in time,True
+PAY00032,CUST0019,2242.93,failed,authentication failed - OTP not entered in time,customer_action_needed,3,2026-08-11,,customer_action_needed,OTP was not entered within the given time for the 3rd time,True
+PAY00033,CUST0016,4596.45,failed,card expired,customer_action_needed,0,2026-08-07,SUB0030,customer_action_needed,The payment failure is due to an expired card,True
+PAY00034,CUST0018,1823.75,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-01,SUB0003,customer_action_needed,OTP was not entered in time,True
 PAY00035,CUST0041,1122.39,failed,"temporary decline, code 96 - system malfunction",transient,2,2026-08-19,,transient,"temporary decline due to system malfunction, safe to auto-retry",True
-PAY00036,CUST0002,1245.73,failed,network error during authorization,transient,1,2026-08-04,SUB0014,transient,"Network error during authorization suggests a temporary technical issue, safe to auto-retry",True
+PAY00036,CUST0002,1245.73,failed,network error during authorization,transient,1,2026-08-04,SUB0014,transient,"network error during authorization indicates a temporary technical issue, safe to auto-retry",True
 PAY00037,CUST0054,1078.15,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-10,,risk_flag,Repeated attempt with insufficient funds,True
-PAY00038,CUST0046,4240.14,failed,network error during authorization,transient,2,2026-08-13,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True
-PAY00039,CUST0005,1399.92,failed,network error during authorization,transient,3,2026-08-06,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00038,CUST0046,4240.14,failed,network error during authorization,transient,2,2026-08-13,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry.",True
+PAY00039,CUST0005,1399.92,failed,network error during authorization,transient,3,2026-08-06,,transient,"Network error during authorization suggests a temporary technical issue, safe to auto-retry",True
 PAY00040,CUST0047,1402.9,failed,gateway timeout - please retry,transient,0,2026-08-10,,transient,"Temporary gateway timeout, safe to auto-retry",True
-PAY00041,CUST0014,4175.62,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-09,,risk_flag,Repeated attempt with insufficient funds,True
-PAY00042,CUST0030,1778.77,failed,"issuing bank not responding, error 91",transient,0,2026-08-17,SUB0012,transient,"Issuing bank not responding (error 91) indicates a temporary technical issue, safe to auto-retry",True
-PAY00043,CUST0039,2866.77,failed,invalid CVV entered,customer_action_needed,2,2026-08-19,SUB0024,customer_action_needed,The customer needs to enter the correct CVV,True
-PAY00044,CUST0051,249.61,failed,card expired,customer_action_needed,0,2026-08-15,SUB0001,customer_action_needed,Card has expired and needs to be updated,True
-PAY00045,CUST0013,3927.08,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-04,SUB0009,risk_flag,"The payment was declined by the issuing bank, indicating potential risk or insufficient funds. A softer approach may be necessary.",True
-PAY00046,CUST0046,626.19,failed,"issuing bank not responding, error 91",transient,0,2026-08-01,,transient,"Issuing bank not responding indicates a temporary network issue, safe to auto-retry",True
-PAY00047,CUST0014,2617.89,failed,network error during authorization,transient,1,2026-08-09,,transient,"Network error during authorization suggests a temporary technical issue, safe to auto-retry.",True
-PAY00048,CUST0040,826.45,failed,network error during authorization,transient,2,2026-08-18,,transient,"Temporary network error during authorization, safe to auto-retry",True
-PAY00049,CUST0059,4091.64,failed,"issuing bank not responding, error 91",transient,1,2026-08-20,,transient,"Issuing bank not responding (error 91) suggests a temporary technical issue, safe to auto-retry.",True
+PAY00041,CUST0014,4175.62,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-09,,risk_flag,Repeated insufficient funds error,True
+PAY00042,CUST0030,1778.77,failed,"issuing bank not responding, error 91",transient,0,2026-08-17,SUB0012,transient,"Issuing bank not responding indicates a temporary technical issue, safe to auto-retry",True
+PAY00043,CUST0039,2866.77,failed,invalid CVV entered,customer_action_needed,2,2026-08-19,SUB0024,customer_action_needed,Invalid CVV entered in the last two attempts,True
+PAY00044,CUST0051,249.61,failed,card expired,customer_action_needed,0,2026-08-15,SUB0001,customer_action_needed,"Card has expired, customer needs to update the card details",True
+PAY00045,CUST0013,3927.08,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-04,SUB0009,risk_flag,"Payment declined by issuing bank with code 05, indicating a possible risk flag or insufficient funds",True
+PAY00046,CUST0046,626.19,failed,"issuing bank not responding, error 91",transient,0,2026-08-01,,transient,"Issuing bank not responding indicates a temporary issue, safe to auto-retry",True
+PAY00047,CUST0014,2617.89,failed,network error during authorization,transient,1,2026-08-09,,transient,"Network error during authorization suggests a temporary technical issue, safe to auto-retry",True
+PAY00048,CUST0040,826.45,failed,network error during authorization,transient,2,2026-08-18,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00049,CUST0059,4091.64,failed,"issuing bank not responding, error 91",transient,1,2026-08-20,,transient,"Payment failure due to temporary issue with issuing bank (error 91), safe to auto-retry",True
 PAY00050,CUST0031,2874.44,failed,"insufficient funds, repeated attempt",risk_flag,2,2026-08-18,SUB0001,risk_flag,Repeated payment failure due to insufficient funds,True
-PAY00051,CUST0039,814.9,failed,invalid CVV entered,customer_action_needed,0,2026-08-18,SUB0022,customer_action_needed,The payment failure is due to an invalid CVV entered,True
-PAY00052,CUST0036,1029.34,failed,network error during authorization,transient,0,2026-08-04,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
-PAY00053,CUST0019,2232.45,failed,network error during authorization,transient,1,2026-08-02,SUB0003,transient,"network error during authorization suggests a temporary technical issue, safe to auto-retry",True
-PAY00054,CUST0031,1987.6,failed,"temporary decline, code 96 - system malfunction",transient,1,2026-08-13,SUB0030,transient,"temporary decline due to a system malfunction, safe to auto-retry",True
-PAY00055,CUST0014,845.15,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-04,,risk_flag,Repeated attempt with insufficient funds,True
-PAY00056,CUST0024,3048.3,failed,"issuing bank not responding, error 91",transient,1,2026-08-10,,transient,"Issuing bank not responding indicates a temporary technical issue, safe to auto-retry",True
-PAY00057,CUST0018,846.46,failed,"issuing bank not responding, error 91",transient,2,2026-08-05,SUB0023,transient,"Issuing bank not responding (error 91) is often a temporary issue, safe to auto-retry",True
-PAY00058,CUST0043,2829.94,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-05,SUB0017,risk_flag,Repeated decline by issuing bank indicates potential risk or fraud,True
-PAY00059,CUST0036,2283.22,failed,network error during authorization,transient,0,2026-08-12,SUB0016,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True
-PAY00060,CUST0015,2597.98,failed,card expired,customer_action_needed,0,2026-08-17,,customer_action_needed,The payment failure is due to an expired card,True
-PAY00061,CUST0009,4630.94,failed,card expired,customer_action_needed,1,2026-08-05,,customer_action_needed,"Card has expired, user needs to update card details",True
-PAY00062,CUST0060,509.22,failed,"declined by issuing bank - do not honor, code 05",risk_flag,2,2026-08-01,,risk_flag,Repeated payment declines by issuing bank could indicate potential fraud or insufficient funds,True
-PAY00063,CUST0042,2582.76,failed,authentication failed - OTP not entered in time,customer_action_needed,2,2026-08-07,,customer_action_needed,OTP not entered in time,True
-PAY00064,CUST0039,1084.39,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-18,,transient,"Temporary decline due to potential system malfunction, safe to auto-retry",True
-PAY00065,CUST0054,1646.62,failed,card expired,customer_action_needed,1,2026-08-08,,customer_action_needed,"The card has expired, customer needs to update the card details",True
+PAY00051,CUST0039,814.9,failed,invalid CVV entered,customer_action_needed,0,2026-08-18,SUB0022,customer_action_needed,Invalid CVV entered,True
+PAY00052,CUST0036,1029.34,failed,network error during authorization,transient,0,2026-08-04,,transient,Temporary network error during authorization,True
+PAY00053,CUST0019,2232.45,failed,network error during authorization,transient,1,2026-08-02,SUB0003,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00054,CUST0031,1987.6,failed,"temporary decline, code 96 - system malfunction",transient,1,2026-08-13,SUB0030,transient,"Temporary decline due to system malfunction, safe to auto-retry",True
+PAY00055,CUST0014,845.15,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-04,,risk_flag,Repeated failed attempts and insufficient funds indicate a potential risk.,True
+PAY00056,CUST0024,3048.3,failed,"issuing bank not responding, error 91",transient,1,2026-08-10,,transient,"Issuing bank not responding could be a temporary issue, safe to auto-retry",True
+PAY00057,CUST0018,846.46,failed,"issuing bank not responding, error 91",transient,2,2026-08-05,SUB0023,transient,"Issuing bank not responding (error 91) is a temporary technical issue, safe to auto-retry",True
+PAY00058,CUST0043,2829.94,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-05,SUB0017,risk_flag,Repeated decline by issuing bank (code 05) may indicate potential risk or insufficient funds,True
+PAY00059,CUST0036,2283.22,failed,network error during authorization,transient,0,2026-08-12,SUB0016,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00060,CUST0015,2597.98,failed,card expired,customer_action_needed,0,2026-08-17,,customer_action_needed,"Card has expired, customer needs to update the card details",True
+PAY00061,CUST0009,4630.94,failed,card expired,customer_action_needed,1,2026-08-05,,customer_action_needed,The card has expired,True
+PAY00062,CUST0060,509.22,failed,"declined by issuing bank - do not honor, code 05",risk_flag,2,2026-08-01,,risk_flag,Repeated declines by issuing bank may indicate risk or fraud,True
+PAY00063,CUST0042,2582.76,failed,authentication failed - OTP not entered in time,customer_action_needed,2,2026-08-07,,customer_action_needed,OTP not entered within valid time,True
+PAY00064,CUST0039,1084.39,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-18,,transient,"Temporary decline due to system malfunction, safe to auto-retry",True
+PAY00065,CUST0054,1646.62,failed,card expired,customer_action_needed,1,2026-08-08,,customer_action_needed,Expired card requires customer action,True
 PAY00066,CUST0055,3867.56,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-12,,transient,"Temporary decline due to system malfunction, safe to auto-retry",True
-PAY00067,CUST0010,3978.89,failed,card expired,customer_action_needed,1,2026-08-12,,customer_action_needed,Card expired and needs to be updated by the customer,True
-PAY00068,CUST0013,1051.26,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-03,SUB0014,customer_action_needed,The card has reportedly expired according to the issuer,True
-PAY00069,CUST0047,2500.24,failed,"insufficient funds, repeated attempt",risk_flag,1,2026-08-01,,risk_flag,Repeated attempt due to insufficient funds,True
-PAY00070,CUST0015,964.22,failed,gateway timeout - please retry,transient,2,2026-08-10,SUB0013,transient,"Gateway timeout is a temporary issue, safe to auto-retry",True
-PAY00071,CUST0023,1996.79,failed,network error during authorization,transient,0,2026-08-05,,transient,Temporary network error during authorization,True
-PAY00072,CUST0030,3222.23,failed,"temporary decline, code 96 - system malfunction",transient,2,2026-08-06,SUB0005,transient,"The payment failure reason 'temporary decline, code 96 - system malfunction' indicates a temporary technical issue, safe to auto-retry.",True
-PAY00073,CUST0045,2861.75,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-15,SUB0004,customer_action_needed,OTP not entered in time,True
-PAY00074,CUST0051,3910.11,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-11,,customer_action_needed,The card has reportedly expired according to the issuer.,True
-PAY00075,CUST0046,4875.51,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0008,transient,"Issuing bank not responding with error 91 is a temporary technical issue, safe to auto-retry.",True
-PAY00076,CUST0046,1836.41,failed,"issuing bank not responding, error 91",transient,0,2026-08-02,SUB0016,transient,"Issuing bank not responding suggests a temporary technical issue, safe to auto-retry",True
-PAY00077,CUST0025,2299.99,failed,network error during authorization,transient,1,2026-08-06,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
-PAY00078,CUST0041,1730.47,failed,"temporary decline, code 96 - system malfunction",transient,2,2026-08-06,,transient,"temporary decline due to system malfunction, safe to auto-retry after some time",True
-PAY00079,CUST0010,3516.29,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-16,,customer_action_needed,Card expired as reported by issuer,True
+PAY00067,CUST0010,3978.89,failed,card expired,customer_action_needed,1,2026-08-12,,customer_action_needed,"Card expired, customer needs to update card details",True
+PAY00068,CUST0013,1051.26,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-03,SUB0014,customer_action_needed,The card has reportedly expired according to the issuer.,True
+PAY00069,CUST0047,2500.24,failed,"insufficient funds, repeated attempt",risk_flag,1,2026-08-01,,risk_flag,Repeated failure and insufficient funds indicate potential risk,True
+PAY00070,CUST0015,964.22,failed,gateway timeout - please retry,transient,2,2026-08-10,SUB0013,transient,"gateway timeout suggests a temporary technical issue, safe to auto-retry",True
+PAY00071,CUST0023,1996.79,failed,network error during authorization,transient,0,2026-08-05,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00072,CUST0030,3222.23,failed,"temporary decline, code 96 - system malfunction",transient,2,2026-08-06,SUB0005,transient,"temporary decline due to system malfunction, safe to auto-retry",True
+PAY00073,CUST0045,2861.75,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-15,SUB0004,customer_action_needed,The customer has not entered the OTP in time,True
+PAY00074,CUST0051,3910.11,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-11,,customer_action_needed,The payment failure is due to an expired card as reported by the issuer,True
+PAY00075,CUST0046,4875.51,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0008,transient,"Issuing bank not responding (error 91) is a temporary technical issue, safe to auto-retry",True
+PAY00076,CUST0046,1836.41,failed,"issuing bank not responding, error 91",transient,0,2026-08-02,SUB0016,transient,"Issuing bank not responding, error 91 suggests a temporary technical issue at the issuing bank's end, safe to auto-retry",True
+PAY00077,CUST0025,2299.99,failed,network error during authorization,transient,1,2026-08-06,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00078,CUST0041,1730.47,failed,"temporary decline, code 96 - system malfunction",transient,2,2026-08-06,,transient,"temporary decline due to system malfunction, safe to auto-retry",True
+PAY00079,CUST0010,3516.29,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-16,,customer_action_needed,The card provided has expired according to the issuer,True
 PAY00080,CUST0030,3064.38,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-15,,transient,temporary decline due to system malfunction,True
-PAY00081,CUST0050,4830.84,failed,gateway timeout - please retry,transient,3,2026-08-15,SUB0012,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry after some delay",True
-PAY00082,CUST0032,4464.74,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-02,,transient,temporary decline due to possible system malfunction,True
-PAY00083,CUST0009,4676.91,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-18,,risk_flag,"Repeated decline by issuing bank, possibly due to risk flags or insufficient funds",True
-PAY00084,CUST0056,3024.96,failed,"issuing bank not responding, error 91",transient,0,2026-08-08,,transient,"Issuing bank not responding (error 91) indicates a temporary technical issue, safe to auto-retry",True
-PAY00085,CUST0017,4798.25,failed,gateway timeout - please retry,transient,2,2026-08-02,SUB0020,transient,"Gateway timeout, safe to auto-retry after a short delay",True
-PAY00086,CUST0014,1081.74,failed,gateway timeout - please retry,transient,0,2026-08-12,,transient,"Gateway timeout suggests a temporary technical issue, safe to auto-retry",True
-PAY00087,CUST0023,1369.66,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-15,SUB0019,risk_flag,Repeated attempt with insufficient funds,True
-PAY00088,CUST0003,4031.44,failed,insufficient funds - code 51,risk_flag,0,2026-08-10,,risk_flag,Insufficient funds - code 51 indicates that the customer does not have enough funds to complete the payment.,True
-PAY00089,CUST0054,3595.31,failed,"issuing bank not responding, error 91",transient,1,2026-08-21,SUB0021,transient,"Issuing bank temporarily unresponsive, safe to auto-retry",True
-PAY00090,CUST0031,2452.73,failed,card expired,customer_action_needed,0,2026-08-20,SUB0004,customer_action_needed,Card has expired and needs to be updated,True
-PAY00091,CUST0060,3615.32,failed,"temporary decline, code 96 - system malfunction",transient,3,2026-08-01,SUB0012,transient,"temporary decline due to system malfunction, safe to auto-retry",True
-PAY00092,CUST0024,4804.84,failed,card reported as expired by issuer,customer_action_needed,3,2026-08-09,SUB0020,customer_action_needed,Expired card reported by the issuer,True
-PAY00093,CUST0053,4207.86,failed,network error during authorization,transient,3,2026-08-03,SUB0016,transient,"Network error during authorization suggests a temporary technical issue, safe to auto-retry",True
-PAY00094,CUST0005,733.98,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,,risk_flag,Insufficient funds indicated by code 51,True
-PAY00095,CUST0055,2854.9,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0021,transient,"Issuing bank not responding (error 91) is often a temporary technical issue, safe to auto-retry",True
-PAY00096,CUST0001,1114.21,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-06,SUB0023,risk_flag,Repeated attempt for insufficient funds,True
-PAY00097,CUST0038,3349.7,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-10,,risk_flag,"Issuing bank declined the payment due to a potential risk, and it might require further investigation or manual review.",True
-PAY00098,CUST0031,1579.52,failed,"issuing bank not responding, error 91",transient,0,2026-08-09,SUB0030,transient,"The payment failure is due to the issuing bank not responding, indicating a temporary technical issue. It's safe to auto-retry.",True
-PAY00099,CUST0016,2270.66,failed,network error during authorization,transient,0,2026-08-20,SUB0018,transient,"Temporary network error during authorization, safe to auto-retry",True
-PAY00100,CUST0012,1719.26,failed,"issuing bank not responding, error 91",transient,0,2026-08-05,,transient,"Issuing bank not responding indicates a temporary technical issue, safe to auto-retry",True
-PAY00101,CUST0054,1229.43,failed,insufficient funds - code 51,risk_flag,1,2026-08-17,,risk_flag,Insufficient funds indicated by code 51 after 1 retry,True
-PAY00102,CUST0027,2341.32,failed,insufficient funds - code 51,risk_flag,0,2026-08-10,,risk_flag,Insufficient funds (code 51) indicates lack of available funds. No retry recommended due to potential risk.,True
+PAY00081,CUST0050,4830.84,failed,gateway timeout - please retry,transient,3,2026-08-15,SUB0012,transient,"gateway timeout indicates a temporary technical issue, safe to auto-retry",True
+PAY00082,CUST0032,4464.74,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-02,,transient,"Temporary decline due to system malfunction, safe to auto-retry",True
+PAY00083,CUST0009,4676.91,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-18,,risk_flag,"Repeated decline by issuing bank (code 05) indicates potential risk, requiring a softer approach",True
+PAY00084,CUST0056,3024.96,failed,"issuing bank not responding, error 91",transient,0,2026-08-08,,transient,"The payment failure is due to the issuing bank not responding, which could be a temporary technical issue. It's safe to auto-retry.",True
+PAY00085,CUST0017,4798.25,failed,gateway timeout - please retry,transient,2,2026-08-02,SUB0020,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
+PAY00086,CUST0014,1081.74,failed,gateway timeout - please retry,transient,0,2026-08-12,,transient,"gateway timeout suggests a temporary technical issue, safe to auto-retry",True
+PAY00087,CUST0023,1369.66,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-15,SUB0019,risk_flag,Insufficient funds and repeated attempt may indicate a risk of fraud or insufficient funds,True
+PAY00088,CUST0003,4031.44,failed,insufficient funds - code 51,risk_flag,0,2026-08-10,,risk_flag,"Insufficient funds indicated by code 51, suggesting potential lack of funds for the given payment amount",True
+PAY00089,CUST0054,3595.31,failed,"issuing bank not responding, error 91",transient,1,2026-08-21,SUB0021,transient,"Issuing bank temporary unresponsiveness indicated by error 91, safe to auto-retry.",True
+PAY00090,CUST0031,2452.73,failed,card expired,customer_action_needed,0,2026-08-20,SUB0004,customer_action_needed,The payment failure is due to an expired card,True
+PAY00091,CUST0060,3615.32,failed,"temporary decline, code 96 - system malfunction",transient,3,2026-08-01,SUB0012,transient,"Temporary decline due to system malfunction, safe to auto-retry after some time",True
+PAY00092,CUST0024,4804.84,failed,card reported as expired by issuer,customer_action_needed,3,2026-08-09,SUB0020,customer_action_needed,"The card has reportedly expired by the issuer, suggesting that the card needs to be updated.",True
+PAY00093,CUST0053,4207.86,failed,network error during authorization,transient,3,2026-08-03,SUB0016,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00094,CUST0005,733.98,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,,risk_flag,Insufficient funds - code 51 indicates the account may not have sufficient balance for the payment. A softer approach is needed.,True
+PAY00095,CUST0055,2854.9,failed,"issuing bank not responding, error 91",transient,2,2026-08-13,SUB0021,transient,"Issuing bank not responding (error 91) is a common temporary technical issue, safe to auto-retry",True
+PAY00096,CUST0001,1114.21,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-06,SUB0023,risk_flag,Repeated attempt with insufficient funds,True
+PAY00097,CUST0038,3349.7,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-10,,risk_flag,"The payment was declined by the issuing bank with code 05, which typically indicates a risk flag or insufficient funds.",True
+PAY00098,CUST0031,1579.52,failed,"issuing bank not responding, error 91",transient,0,2026-08-09,SUB0030,transient,"Issuing bank not responding due to potential temporary technical issue, safe to auto-retry",True
+PAY00099,CUST0016,2270.66,failed,network error during authorization,transient,0,2026-08-20,SUB0018,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00100,CUST0012,1719.26,failed,"issuing bank not responding, error 91",transient,0,2026-08-05,,transient,"Issuing bank not responding (error 91) suggests a temporary technical issue, safe to auto-retry",True
+PAY00101,CUST0054,1229.43,failed,insufficient funds - code 51,risk_flag,1,2026-08-17,,risk_flag,Insufficient funds - code 51 indicates the account does not have sufficient funds. A second attempt could indicate a risk of insufficient funds again.,True
+PAY00102,CUST0027,2341.32,failed,insufficient funds - code 51,risk_flag,0,2026-08-10,,risk_flag,"Insufficient funds detected, code 51",True
 PAY00103,CUST0046,4862.6,failed,network error during authorization,transient,2,2026-08-07,SUB0023,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
-PAY00104,CUST0046,4947.07,failed,gateway timeout - please retry,transient,0,2026-08-14,SUB0003,transient,"gateway timeout indicates a temporary technical issue, safe to auto-retry",True
+PAY00104,CUST0046,4947.07,failed,gateway timeout - please retry,transient,0,2026-08-14,SUB0003,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
 PAY00105,CUST0011,791.0,failed,gateway timeout - please retry,transient,0,2026-08-01,,transient,"gateway timeout indicates a temporary technical issue, safe to auto-retry",True
-PAY00106,CUST0059,3939.38,failed,network error during authorization,transient,0,2026-08-13,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry.",True
-PAY00107,CUST0028,2659.37,failed,"issuing bank not responding, error 91",transient,0,2026-08-03,SUB0023,transient,"Issuing bank not responding, error 91 suggests a temporary technical issue on the bank's side, safe to auto-retry",True
-PAY00108,CUST0020,3073.07,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-07,SUB0018,customer_action_needed,The card has reportedly expired according to the issuer,True
+PAY00106,CUST0059,3939.38,failed,network error during authorization,transient,0,2026-08-13,,transient,"network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00107,CUST0028,2659.37,failed,"issuing bank not responding, error 91",transient,0,2026-08-03,SUB0023,transient,"Issuing bank not responding (error 91) indicates a temporary technical issue, safe to auto-retry",True
+PAY00108,CUST0020,3073.07,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-07,SUB0018,customer_action_needed,"The card has reportedly expired by the issuer, requiring the customer to update the card details",True
 PAY00109,CUST0021,3137.69,failed,invalid CVV entered,customer_action_needed,0,2026-08-18,,customer_action_needed,Invalid CVV entered,True
-PAY00110,CUST0014,2505.3,failed,"issuing bank not responding, error 91",transient,0,2026-08-06,SUB0006,transient,"Issuing bank not responding, error 91 suggests a temporary network error or glitch, safe to auto-retry",True
-PAY00111,CUST0041,3021.26,failed,gateway timeout - please retry,transient,3,2026-08-09,SUB0008,transient,"Gateway timeout suggests a temporary technical issue, safe to auto-retry",True
-PAY00112,CUST0014,3448.4,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-20,,risk_flag,Repeated decline by issuing bank may indicate potential risk or insufficient funds,True
-PAY00113,CUST0018,2690.3,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-15,,customer_action_needed,The card reported as expired by the issuer indicates the need for the customer to provide a new valid card,True
-PAY00114,CUST0060,3802.35,failed,transaction flagged for suspected fraud,risk_flag,2,2026-08-20,,risk_flag,Repeated payment failure flagged as fraud suspicion,True
-PAY00115,CUST0057,1021.63,failed,gateway timeout - please retry,transient,0,2026-08-17,SUB0019,transient,"Temporary gateway timeout, safe to auto-retry",True
-PAY00116,CUST0027,4034.34,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-06,,risk_flag,Repeated attempt with insufficient funds,True
-PAY00117,CUST0057,545.29,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-17,,risk_flag,"Declined by issuing bank, code 05 typically indicates a potential risk or fraud signal",True
-PAY00118,CUST0024,3223.75,failed,"issuing bank not responding, error 91",transient,1,2026-08-19,,transient,"Payment failure due to issuing bank temporary unavailability, safe to auto-retry",True
-PAY00119,CUST0011,1205.75,failed,"issuing bank not responding, error 91",transient,0,2026-08-08,,transient,"Issuing bank not responding, error 91 indicates a temporary technical issue, safe to auto-retry",True
-PAY00120,CUST0038,3550.52,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-09,,transient,"Temporary decline due to system malfunction, safe to auto-retry.",True
-PAY00121,CUST0030,1231.23,failed,insufficient funds - code 51,risk_flag,1,2026-08-01,,risk_flag,"Insufficient funds indicated by code 51, suggesting the customer may not have enough funds for the payment. A softer approach is needed.",True
+PAY00110,CUST0014,2505.3,failed,"issuing bank not responding, error 91",transient,0,2026-08-06,SUB0006,transient,"Issuing bank not responding indicates a temporary technical issue, safe to auto-retry",True
+PAY00111,CUST0041,3021.26,failed,gateway timeout - please retry,transient,3,2026-08-09,SUB0008,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
+PAY00112,CUST0014,3448.4,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-20,,risk_flag,Repeated decline by issuing bank indicates possible risk or insufficient funds,True
+PAY00113,CUST0018,2690.3,failed,card reported as expired by issuer,customer_action_needed,0,2026-08-15,,customer_action_needed,The card has reportedly expired as per the issuer,True
+PAY00114,CUST0060,3802.35,failed,transaction flagged for suspected fraud,risk_flag,2,2026-08-20,,risk_flag,Repeated failure and suspected fraud,True
+PAY00115,CUST0057,1021.63,failed,gateway timeout - please retry,transient,0,2026-08-17,SUB0019,transient,"Gateway timeout indicates a temporary technical issue, safe to auto-retry",True
+PAY00116,CUST0027,4034.34,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-06,,risk_flag,Repeated attempts with insufficient funds,True
+PAY00117,CUST0057,545.29,failed,"declined by issuing bank - do not honor, code 05",risk_flag,0,2026-08-17,,risk_flag,"The payment was declined by the issuing bank with code 05, which typically indicates a risk assessment by the bank. This may signal repeated failures or fraud/insufficient-funds, requiring a softer, non-pushy approach.",True
+PAY00118,CUST0024,3223.75,failed,"issuing bank not responding, error 91",transient,1,2026-08-19,,transient,"Issuing bank not responding could be a temporary technical issue, safe to auto-retry",True
+PAY00119,CUST0011,1205.75,failed,"issuing bank not responding, error 91",transient,0,2026-08-08,,transient,"The payment failure is due to issuing bank not responding, which indicates a temporary technical issue, safe to auto-retry",True
+PAY00120,CUST0038,3550.52,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-09,,transient,temporary decline due to system malfunction,True
+PAY00121,CUST0030,1231.23,failed,insufficient funds - code 51,risk_flag,1,2026-08-01,,risk_flag,"Insufficient funds indicated by code 51, with only one retry",True
 PAY00122,CUST0018,267.45,failed,network error during authorization,transient,3,2026-08-05,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
-PAY00123,CUST0018,2066.81,failed,invalid CVV entered,customer_action_needed,1,2026-08-19,,customer_action_needed,invalid CVV entered,True
-PAY00124,CUST0035,4171.62,failed,"issuing bank not responding, error 91",transient,2,2026-08-04,,transient,"Issuing bank not responding could be a temporary technical issue, safe to auto-retry",True
-PAY00125,CUST0039,3390.58,failed,"insufficient funds, repeated attempt",risk_flag,3,2026-08-13,,risk_flag,Repeated insufficient fund attempts indicate potential risk,True
-PAY00126,CUST0057,4972.77,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-15,,customer_action_needed,OTP not entered in time,True
-PAY00127,CUST0038,1853.81,failed,invalid CVV entered,customer_action_needed,0,2026-08-01,,customer_action_needed,Invalid CVV entered,True
-PAY00128,CUST0008,3589.06,failed,insufficient funds - code 51,risk_flag,2,2026-08-07,,risk_flag,"Insufficient funds - code 51 after two retries, indicating a potential issue with the customer's account",True
-PAY00129,CUST0037,1682.24,failed,card expired,customer_action_needed,0,2026-08-15,,customer_action_needed,The payment failure is due to an expired card,True
-PAY00130,CUST0059,1046.03,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-03,SUB0018,risk_flag,Repeated failure and specific decline code 05 often indicates a risk or fraud signal,True
-PAY00131,CUST0028,1203.6,failed,invalid CVV entered,customer_action_needed,1,2026-08-10,,customer_action_needed,Invalid CVV entered,True
-PAY00132,CUST0006,3966.37,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-17,,risk_flag,Repeated failure and insufficient funds,True
-PAY00133,CUST0005,2470.38,failed,network error during authorization,transient,2,2026-08-11,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
-PAY00134,CUST0058,3714.18,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-08,SUB0015,customer_action_needed,The card has reportedly expired according to the issuer,True
-PAY00135,CUST0031,3531.95,failed,network error during authorization,transient,0,2026-08-20,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
-PAY00136,CUST0014,2321.81,failed,card expired,customer_action_needed,2,2026-08-18,SUB0007,customer_action_needed,"Card has expired, customer needs to provide a new card details",True
-PAY00137,CUST0060,2502.42,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-03,SUB0021,transient,Payment failure due to temporary system malfunction (code 96). Auto-retry is safe.,True
-PAY00138,CUST0025,1701.96,failed,"issuing bank not responding, error 91",transient,1,2026-08-12,,transient,"Issuing bank not responding is a temporary error, safe to auto-retry",True
-PAY00139,CUST0038,352.22,failed,transaction flagged for suspected fraud,risk_flag,0,2026-08-18,,risk_flag,The transaction was flagged for suspected fraud,True
-PAY00140,CUST0052,247.59,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,SUB0012,risk_flag,"Insufficient funds - code 51 indicates that the account does not have sufficient balance to complete the transaction. This may indicate a risk of failed payment or insufficient funds, requiring a careful approach.",True
-PAY00141,CUST0008,2406.2,failed,network error during authorization,transient,1,2026-08-13,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True
-PAY00142,CUST0044,553.06,failed,card expired,customer_action_needed,3,2026-08-19,,customer_action_needed,"Card expired, needs replacement",True
-PAY00143,CUST0034,2603.41,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-02,,risk_flag,Repeated attempt with insufficient funds,True
-PAY00144,CUST0048,951.08,failed,"issuing bank not responding, error 91",transient,0,2026-08-21,SUB0002,transient,"issuing bank not responding is a temporary technical issue, safe to auto-retry",True
-PAY00145,CUST0013,2931.64,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-13,SUB0020,customer_action_needed,OTP not entered within the given time,True
-PAY00146,CUST0056,1238.77,failed,"issuing bank not responding, error 91",transient,2,2026-08-16,SUB0016,transient,"Issuing bank not responding (error 91) suggests a temporary technical issue, safe to auto-retry.",True
-PAY00147,CUST0033,479.64,failed,"issuing bank not responding, error 91",transient,1,2026-08-13,SUB0008,transient,"The failure is due to issuing bank not responding, which could be a temporary technical issue, safe to auto-retry.",True
-PAY00148,CUST0017,3271.31,failed,insufficient funds - code 51,risk_flag,0,2026-08-09,SUB0026,risk_flag,Insufficient funds (code 51) indicates the customer likely does not have enough funds for the transaction. A retry at this point might signal a potential issue.,True
-PAY00149,CUST0013,661.08,failed,network error during authorization,transient,1,2026-08-21,,transient,Temporary network error during authorization,True
-PAY00150,CUST0052,1287.5,failed,network error during authorization,transient,2,2026-08-11,SUB0026,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry.",True
+PAY00123,CUST0018,2066.81,failed,invalid CVV entered,customer_action_needed,1,2026-08-19,,customer_action_needed,The customer entered an invalid CVV,True
+PAY00124,CUST0035,4171.62,failed,"issuing bank not responding, error 91",transient,2,2026-08-04,,transient,"Issuing bank not responding (error 91) suggests a temporary technical issue, safe to auto-retry.",True
+PAY00125,CUST0039,3390.58,failed,"insufficient funds, repeated attempt",risk_flag,3,2026-08-13,,risk_flag,Repeated insufficient funds indicates potential risk,True
+PAY00126,CUST0057,4972.77,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-15,,customer_action_needed,OTP was not entered in time,True
+PAY00127,CUST0038,1853.81,failed,invalid CVV entered,customer_action_needed,0,2026-08-01,,customer_action_needed,The customer entered an invalid CVV,True
+PAY00128,CUST0008,3589.06,failed,insufficient funds - code 51,risk_flag,2,2026-08-07,,risk_flag,"Insufficient funds indicated by code 51 in payment failure, with a high-value transaction and multiple retries",True
+PAY00129,CUST0037,1682.24,failed,card expired,customer_action_needed,0,2026-08-15,,customer_action_needed,The card has expired,True
+PAY00130,CUST0059,1046.03,failed,"declined by issuing bank - do not honor, code 05",risk_flag,1,2026-08-03,SUB0018,risk_flag,"Payment declined by issuing bank, code 05 typically indicates a risk flag. This is the first retry and the amount is not insignificant, suggesting potential fraud or insufficient funds.",True
+PAY00131,CUST0028,1203.6,failed,invalid CVV entered,customer_action_needed,1,2026-08-10,,customer_action_needed,"Invalid CVV entered, needs user to correct it",True
+PAY00132,CUST0006,3966.37,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-17,,risk_flag,Repeated attempt with insufficient funds,True
+PAY00133,CUST0005,2470.38,failed,network error during authorization,transient,2,2026-08-11,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00134,CUST0058,3714.18,failed,card reported as expired by issuer,customer_action_needed,1,2026-08-08,SUB0015,customer_action_needed,"The card reported as expired by the issuer, indicating an expired card",True
+PAY00135,CUST0031,3531.95,failed,network error during authorization,transient,0,2026-08-20,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True
+PAY00136,CUST0014,2321.81,failed,card expired,customer_action_needed,2,2026-08-18,SUB0007,customer_action_needed,"Card has expired, customer needs to update the card details",True
+PAY00137,CUST0060,2502.42,failed,"temporary decline, code 96 - system malfunction",transient,0,2026-08-03,SUB0021,transient,"temporary decline due to system malfunction, safe to auto-retry",True
+PAY00138,CUST0025,1701.96,failed,"issuing bank not responding, error 91",transient,1,2026-08-12,,transient,"Issuing bank not responding could be due to a temporary technical issue, safe to auto-retry",True
+PAY00139,CUST0038,352.22,failed,transaction flagged for suspected fraud,risk_flag,0,2026-08-18,,risk_flag,Payment failed due to suspected fraud,True
+PAY00140,CUST0052,247.59,failed,insufficient funds - code 51,risk_flag,0,2026-08-11,SUB0012,risk_flag,Insufficient funds indicated by code 51,True
+PAY00141,CUST0008,2406.2,failed,network error during authorization,transient,1,2026-08-13,,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry",True
+PAY00142,CUST0044,553.06,failed,card expired,customer_action_needed,3,2026-08-19,,customer_action_needed,Card has expired and needs to be updated,True
+PAY00143,CUST0034,2603.41,failed,"insufficient funds, repeated attempt",risk_flag,0,2026-08-02,,risk_flag,Repeated failed attempt and insufficient funds,True
+PAY00144,CUST0048,951.08,failed,"issuing bank not responding, error 91",transient,0,2026-08-21,SUB0002,transient,"Issuing bank not responding, error 91 indicates a temporary technical issue, safe to auto-retry",True
+PAY00145,CUST0013,2931.64,failed,authentication failed - OTP not entered in time,customer_action_needed,1,2026-08-13,SUB0020,customer_action_needed,OTP was not entered in time for the payment,True
+PAY00146,CUST0056,1238.77,failed,"issuing bank not responding, error 91",transient,2,2026-08-16,SUB0016,transient,"The payment failure is due to the issuing bank not responding, which could be a temporary technical issue, safe to auto-retry",True
+PAY00147,CUST0033,479.64,failed,"issuing bank not responding, error 91",transient,1,2026-08-13,SUB0008,transient,"Payment failure due to issuing bank not responding, safe to auto-retry",True
+PAY00148,CUST0017,3271.31,failed,insufficient funds - code 51,risk_flag,0,2026-08-09,SUB0026,risk_flag,"Insufficient funds - code 51 indicates the account has insufficient funds, suggesting a risk of failure",True
+PAY00149,CUST0013,661.08,failed,network error during authorization,transient,1,2026-08-21,,transient,"Network error during authorization is a temporary technical issue, safe to auto-retry",True
+PAY00150,CUST0052,1287.5,failed,network error during authorization,transient,2,2026-08-11,SUB0026,transient,"Network error during authorization indicates a temporary technical issue, safe to auto-retry.",True

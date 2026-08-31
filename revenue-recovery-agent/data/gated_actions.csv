@@ -1,7 +1,7 @@
 payment_id,customer_id,amount,predicted_category,chosen_action,chosen_tone,final_action,gate_status,gate_reason,simulated_attempt_hour
 PAY00001,CUST0054,1301.08,transient,auto_retry,formal,auto_retry,ALLOWED,no compliance issues,9
 PAY00002,CUST0043,3921.83,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,10
-PAY00003,CUST0053,3677.79,customer_action_needed,send_update_reminder,empathetic,send_update_reminder,ALLOWED,contact attempt 1/3,14
+PAY00003,CUST0053,3677.79,customer_action_needed,send_update_reminder,casual,send_update_reminder,ALLOWED,contact attempt 1/3,14
 PAY00004,CUST0003,998.51,risk_flag,offer_payment_plan,empathetic,offer_payment_plan,ALLOWED,contact attempt 1/3,12
 PAY00005,CUST0049,1831.44,risk_flag,send_soft_reminder,formal,send_soft_reminder,ALLOWED,contact attempt 1/3,17
 PAY00006,CUST0028,3745.48,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,17
@@ -35,7 +35,7 @@ PAY00033,CUST0016,4596.45,customer_action_needed,send_update_reminder,casual,sen
 PAY00034,CUST0018,1823.75,customer_action_needed,send_update_reminder,casual,send_update_reminder,ALLOWED,contact attempt 1/3,15
 PAY00035,CUST0041,1122.39,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,10
 PAY00036,CUST0002,1245.73,transient,auto_retry,formal,auto_retry,ALLOWED,no compliance issues,14
-PAY00037,CUST0054,1078.15,risk_flag,offer_payment_plan,formal,offer_payment_plan,ALLOWED,contact attempt 1/3,16
+PAY00037,CUST0054,1078.15,risk_flag,send_soft_reminder,formal,send_soft_reminder,ALLOWED,contact attempt 1/3,16
 PAY00038,CUST0046,4240.14,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,10
 PAY00039,CUST0005,1399.92,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,10
 PAY00040,CUST0047,1402.9,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,11
@@ -48,7 +48,7 @@ PAY00046,CUST0046,626.19,transient,auto_retry,casual,auto_retry,ALLOWED,no compl
 PAY00047,CUST0014,2617.89,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,13
 PAY00048,CUST0040,826.45,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,10
 PAY00049,CUST0059,4091.64,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,20
-PAY00050,CUST0031,2874.44,risk_flag,send_soft_reminder,casual,send_soft_reminder,ALLOWED,contact attempt 1/3,19
+PAY00050,CUST0031,2874.44,risk_flag,offer_payment_plan,empathetic,offer_payment_plan,ALLOWED,contact attempt 1/3,19
 PAY00051,CUST0039,814.9,customer_action_needed,send_update_reminder,empathetic,deferred,BLOCKED,outside allowed messaging window (9:00-20:00) — simulated attempt at 03:00,3
 PAY00052,CUST0036,1029.34,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,4
 PAY00053,CUST0019,2232.45,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,9
@@ -99,8 +99,8 @@ PAY00097,CUST0038,3349.7,risk_flag,send_soft_reminder,formal,deferred,BLOCKED,ou
 PAY00098,CUST0031,1579.52,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,18
 PAY00099,CUST0016,2270.66,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,10
 PAY00100,CUST0012,1719.26,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,16
-PAY00101,CUST0054,1229.43,risk_flag,offer_payment_plan,formal,offer_payment_plan,ALLOWED,contact attempt 3/3,17
-PAY00102,CUST0027,2341.32,risk_flag,send_soft_reminder,empathetic,send_soft_reminder,ALLOWED,contact attempt 1/3,9
+PAY00101,CUST0054,1229.43,risk_flag,offer_payment_plan,empathetic,offer_payment_plan,ALLOWED,contact attempt 3/3,17
+PAY00102,CUST0027,2341.32,risk_flag,send_soft_reminder,casual,send_soft_reminder,ALLOWED,contact attempt 1/3,9
 PAY00103,CUST0046,4862.6,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,13
 PAY00104,CUST0046,4947.07,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,9
 PAY00105,CUST0011,791.0,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,8
@@ -112,7 +112,7 @@ PAY00110,CUST0014,2505.3,transient,auto_retry,empathetic,auto_retry,ALLOWED,no c
 PAY00111,CUST0041,3021.26,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,18
 PAY00112,CUST0014,3448.4,risk_flag,send_soft_reminder,empathetic,send_soft_reminder,ALLOWED,contact attempt 2/3,9
 PAY00113,CUST0018,2690.3,customer_action_needed,send_update_reminder,casual,send_update_reminder,ALLOWED,contact attempt 2/3,18
-PAY00114,CUST0060,3802.35,risk_flag,send_soft_reminder,empathetic,send_soft_reminder,ALLOWED,contact attempt 2/3,13
+PAY00114,CUST0060,3802.35,risk_flag,offer_payment_plan,formal,offer_payment_plan,ALLOWED,contact attempt 2/3,13
 PAY00115,CUST0057,1021.63,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,21
 PAY00116,CUST0027,4034.34,risk_flag,send_soft_reminder,casual,send_soft_reminder,ALLOWED,contact attempt 2/3,19
 PAY00117,CUST0057,545.29,risk_flag,send_soft_reminder,empathetic,human_handoff,BLOCKED,opt-out respected — customer opted out of messaging,11
@@ -126,7 +126,7 @@ PAY00124,CUST0035,4171.62,transient,auto_retry,casual,auto_retry,ALLOWED,no comp
 PAY00125,CUST0039,3390.58,risk_flag,send_soft_reminder,empathetic,deferred,BLOCKED,outside allowed messaging window (9:00-20:00) — simulated attempt at 07:00,7
 PAY00126,CUST0057,4972.77,customer_action_needed,send_update_reminder,empathetic,human_handoff,BLOCKED,opt-out respected — customer opted out of messaging,18
 PAY00127,CUST0038,1853.81,customer_action_needed,send_update_reminder,formal,send_update_reminder,ALLOWED,contact attempt 1/3,14
-PAY00128,CUST0008,3589.06,risk_flag,send_soft_reminder,casual,send_soft_reminder,ALLOWED,contact attempt 1/3,18
+PAY00128,CUST0008,3589.06,risk_flag,offer_payment_plan,empathetic,offer_payment_plan,ALLOWED,contact attempt 1/3,18
 PAY00129,CUST0037,1682.24,customer_action_needed,send_update_reminder,casual,send_update_reminder,ALLOWED,contact attempt 1/3,9
 PAY00130,CUST0059,1046.03,risk_flag,send_soft_reminder,casual,send_soft_reminder,ALLOWED,contact attempt 1/3,16
 PAY00131,CUST0028,1203.6,customer_action_needed,send_update_reminder,empathetic,send_update_reminder,ALLOWED,contact attempt 1/3,15
@@ -137,11 +137,11 @@ PAY00135,CUST0031,3531.95,transient,auto_retry,casual,auto_retry,ALLOWED,no comp
 PAY00136,CUST0014,2321.81,customer_action_needed,send_update_reminder,empathetic,send_update_reminder,ALLOWED,contact attempt 3/3,13
 PAY00137,CUST0060,2502.42,transient,auto_retry,empathetic,auto_retry,ALLOWED,no compliance issues,14
 PAY00138,CUST0025,1701.96,transient,auto_retry,formal,auto_retry,ALLOWED,no compliance issues,5
-PAY00139,CUST0038,352.22,risk_flag,send_soft_reminder,formal,deferred,BLOCKED,outside allowed messaging window (9:00-20:00) — simulated attempt at 06:00,6
+PAY00139,CUST0038,352.22,risk_flag,offer_payment_plan,formal,deferred,BLOCKED,outside allowed messaging window (9:00-20:00) — simulated attempt at 06:00,6
 PAY00140,CUST0052,247.59,risk_flag,send_soft_reminder,formal,send_soft_reminder,ALLOWED,contact attempt 1/3,15
 PAY00141,CUST0008,2406.2,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,12
 PAY00142,CUST0044,553.06,customer_action_needed,send_update_reminder,empathetic,send_update_reminder,ALLOWED,contact attempt 1/3,18
-PAY00143,CUST0034,2603.41,risk_flag,send_soft_reminder,empathetic,human_handoff,BLOCKED,opt-out respected — customer opted out of messaging,13
+PAY00143,CUST0034,2603.41,risk_flag,offer_payment_plan,empathetic,human_handoff,BLOCKED,opt-out respected — customer opted out of messaging,13
 PAY00144,CUST0048,951.08,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,16
 PAY00145,CUST0013,2931.64,customer_action_needed,send_update_reminder,formal,send_update_reminder,ALLOWED,contact attempt 3/3,9
 PAY00146,CUST0056,1238.77,transient,auto_retry,casual,auto_retry,ALLOWED,no compliance issues,6

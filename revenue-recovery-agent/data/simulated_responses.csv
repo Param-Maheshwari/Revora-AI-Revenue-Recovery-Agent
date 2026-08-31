@@ -1,63 +1,53 @@
 payment_id,customer_id,amount,predicted_category,final_action,chosen_tone,customer_reply,outcome,promised_date,commitment_strength
-PAY00003,CUST0053,3677.79,customer_action_needed,send_update_reminder,empathetic,"Haan bhai, dekhta hu aaj shaam ko. Card change karna padega, purana wala expire ho gaya hai.",ignored,,
-PAY00005,CUST0049,1831.44,risk_flag,send_soft_reminder,formal,"Namaste. Sorry for the issue, I am checking my netbanking right now and will clear the amount in 5 minutes.",paid_immediately,,
-PAY00007,CUST0047,2007.82,risk_flag,send_soft_reminder,casual,"Ah okay, let me check and pay right now.",paid_immediately,,
-PAY00008,CUST0016,4405.89,customer_action_needed,send_update_reminder,casual,"Arrey haan, dekha maine. Aaj sham ko karta hu update, thoda busy hu abhi.",promised_later,aaj sham ko,high
-PAY00013,CUST0027,1034.94,customer_action_needed,send_update_reminder,casual,"Arre bhai card expire ho gaya tha, shaam ko naya card add karke karta hu",promised_later,shaam ko,medium
-PAY00018,CUST0015,1199.31,customer_action_needed,send_update_reminder,formal,"Let me check my banking app, will update the card and pay this in 5 minutes.",paid_immediately,,
-PAY00019,CUST0058,2481.0,risk_flag,send_soft_reminder,casual,"Arre haan, dekha maine. Aaj office mein thoda busy hu, shaam ko 7-8 baje ke aas-paas karta hu try.",promised_later,aaj shaam ko 7-8 baje,medium
-PAY00022,CUST0002,497.34,risk_flag,send_soft_reminder,formal,"Ah okay, let me try paying again right now. Thanks for letting me know.",paid_immediately,,
-PAY00032,CUST0019,2242.93,customer_action_needed,send_update_reminder,empathetic,"Arre haan yaar, pichli baar bhi card decline ho gaya tha, pata nahi kya scene hai. Aaj shaam ko 6 baje tak dusra card use karke clear kar deti hu.",promised_later,aaj shaam ko 6 baje,high
-PAY00033,CUST0016,4596.45,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha maine. Aaj sham ko karta hoon update, thoda busy hoon abhi.",promised_later,aaj sham ko,high
-PAY00034,CUST0018,1823.75,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha nahi tha. Abhi karta hu update.",paid_immediately,,
-PAY00037,CUST0054,1078.15,risk_flag,offer_payment_plan,formal,"Haan theek hai, par abhi paise nahi hain. Agle hafte ki 7 tareek ko salary aane ke baad hi pay kar paungi, installments mein.",promised_later,7 tareek,high
-PAY00041,CUST0014,4175.62,risk_flag,send_soft_reminder,empathetic,"Haan sorry, notice nahi kiya. Abhi kar deti hu payment.",paid_immediately,,
-PAY00043,CUST0039,2866.77,customer_action_needed,send_update_reminder,empathetic,"Oh acha, thik hai, main abhi card update karke payment kar deti hu.",paid_immediately,,
-PAY00044,CUST0051,249.61,customer_action_needed,send_update_reminder,empathetic,"Haan bhai, dekhta hu. Kal subah try karta hu card update karne ka.",promised_later,kal subah,medium
-PAY00050,CUST0031,2874.44,risk_flag,send_soft_reminder,casual,"Haan dekha maine, pata nahi kyun fail ho raha hai. Shaam ko 7-8 baje ke baad try karti hoon phir se.",promised_later,shaam ko 7-8 baje ke baad,medium
-PAY00051,CUST0039,814.9,customer_action_needed,send_update_reminder,empathetic,"Ah okay, let me check. My card probably expired. Will update and pay in 5 mins.",paid_immediately,,
-PAY00055,CUST0014,845.15,risk_flag,send_soft_reminder,empathetic,"Haan sorry, notice nahi kiya. Abhi karta hu pay.",paid_immediately,,
-PAY00058,CUST0043,2829.94,risk_flag,send_soft_reminder,casual,"Haan bhai, dekhta hu. Kal tak kar dunga.",promised_later,kal tak,medium
-PAY00060,CUST0015,2597.98,customer_action_needed,send_update_reminder,formal,"Okay, checking my card details now. Will update and complete the payment.",paid_immediately,,
-PAY00062,CUST0060,509.22,risk_flag,send_soft_reminder,empathetic,"Haan bhai, dekha maine. Aaj thoda busy hoon, shaam tak pakka clear kar deta hu.",promised_later,shaam tak,medium
-PAY00068,CUST0013,1051.26,customer_action_needed,send_update_reminder,formal,"Okay, checking it now.",paid_immediately,,
-PAY00069,CUST0047,2500.24,risk_flag,send_soft_reminder,casual,"Oh acha, let me check and pay right now. Thanks for letting me know!",paid_immediately,,
-PAY00073,CUST0045,2861.75,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha maine. Abhi karta hu update, wait.",paid_immediately,,
-PAY00074,CUST0051,3910.11,customer_action_needed,send_update_reminder,empathetic,"Haan bhai, pata nahi kyu fail ho raha hai baar baar. Aaj sham ko karta hu update karke.",promised_later,aaj sham ko,medium
-PAY00079,CUST0010,3516.29,customer_action_needed,send_update_reminder,empathetic,"Haan bhai, dekhta hu. Kal subah try karta hu update karne ka.",promised_later,kal subah,medium
-PAY00087,CUST0023,1369.66,risk_flag,send_soft_reminder,casual,"Arey haan, dekha maine. Aaj sham ko karta hu bhai.",promised_later,aaj sham ko,medium
-PAY00088,CUST0003,4031.44,risk_flag,send_soft_reminder,empathetic,"Haan bhai, dekha maine. Thoda tight chal raha hai scene, weekend tak karta hu clear.",promised_later,weekend tak,medium
-PAY00092,CUST0024,4804.84,customer_action_needed,send_update_reminder,casual,"Arrey yaar, pata nahi kyu fail ho gaya. Wait, abhi karta hu update.",paid_immediately,,
-PAY00094,CUST0005,733.98,risk_flag,send_soft_reminder,casual,"Arre haan, dekha maine. Aaj sham ko karta hu, thoda busy hu abhi.",promised_later,aaj shaam ko,medium
-PAY00096,CUST0001,1114.21,risk_flag,send_soft_reminder,formal,"Arre sir, kal hi salary aane wali hai, tabhi kar dunga payment.",promised_later,kal,high
-PAY00097,CUST0038,3349.7,risk_flag,send_soft_reminder,formal,"Aapka message aa gaya hai, par baar baar error aa raha hai mere card se. Main sham ko try karti hu, agar fir bhi nahi hua toh net banking se kar dungi.",promised_later,sham ko,medium
-PAY00101,CUST0054,1229.43,risk_flag,offer_payment_plan,formal,"Haan theek hai, agar installment kar sakte ho toh theek hai. Main next week tak koshish karti hu, abhi salary aane wali hai toh main Thursday ya Friday tak clear kar dungi.",promised_later,next week Thursday or Friday,medium
-PAY00112,CUST0014,3448.4,risk_flag,send_soft_reminder,empathetic,"Haan sorry, notice nahi kiya tha. Abhi krti hu pay 5 mins me.",paid_immediately,,
-PAY00113,CUST0018,2690.3,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha nahi tha. Main abhi card update karke pay kar deta hu 2 minute mein.",paid_immediately,,
-PAY00114,CUST0060,3802.35,risk_flag,send_soft_reminder,empathetic,"Haan bhai, dekhta hu. Kal subah tak karta hu payment.",promised_later,kal subah,high
-PAY00116,CUST0027,4034.34,risk_flag,send_soft_reminder,casual,"Arre haan bhai, dekha maine. Aaj thoda busy hoon, shaam ko pakka karta hu try.",promised_later,shaam ko,medium
-PAY00121,CUST0030,1231.23,risk_flag,send_soft_reminder,empathetic,"Haan sorry, notice nahi kiya tha. Abhi krti hu payment.",paid_immediately,,
-PAY00123,CUST0018,2066.81,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha nahi maine. Abhi karta hu update.",paid_immediately,,
-PAY00125,CUST0039,3390.58,risk_flag,send_soft_reminder,empathetic,"Hey, sorry about that! I didn't realize it failed. Paying it right now.",paid_immediately,,
-PAY00127,CUST0038,1853.81,customer_action_needed,send_update_reminder,formal,"Aapka message samajh aa gaya, par pehle bhi yehi bol raha tha ki mera card expire hone wala hai. Thoda time dijiye, weekend tak karta hu.",promised_later,weekend tak,medium
-PAY00128,CUST0008,3589.06,risk_flag,send_soft_reminder,casual,"Arre haan, dekha maine. Abhi UPI down chal raha hai, shaam tak karta hoon.",promised_later,shaam tak,medium
-PAY00129,CUST0037,1682.24,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha maine. Woh naya card add karna padega, abhi karta hu 5 mins me.",paid_immediately,,
-PAY00130,CUST0059,1046.03,risk_flag,send_soft_reminder,casual,"Arre haan bhai, dekha maine. Aaj sham ko karta hoon transfer.",promised_later,aaj sham ko,high
-PAY00131,CUST0028,1203.6,customer_action_needed,send_update_reminder,empathetic,"Haan sorry, wo card thoda issue de raha hai. Main shaam tak try karti hu doosra card lagane ka.",promised_later,shaam tak,medium
-PAY00132,CUST0006,3966.37,risk_flag,send_soft_reminder,casual,"Arre haan dekha maine, thoda net issue hoga. Abhi karta hu try.",paid_immediately,,
-PAY00139,CUST0038,352.22,risk_flag,send_soft_reminder,formal,"Arey sir, mera card kitni baar decline ho chuka hai, app me kuch technical issue hoga. Main sham ko try karti hu jab ghar jaungi.",promised_later,sham ko,medium
-PAY00140,CUST0052,247.59,risk_flag,send_soft_reminder,formal,"Okay, let me check and pay in 10 minutes.",paid_immediately,,
-PAY00142,CUST0044,553.06,customer_action_needed,send_update_reminder,empathetic,"Haan sorry, yaad nahi raha tha. Main kal subah 10 baje tak update karke payment kar deti hu.",promised_later,kal subah,high
-PAY00145,CUST0013,2931.64,customer_action_needed,send_update_reminder,formal,"Okay, checking it now. Will update the details and complete the payment.",paid_immediately,,
-PAY00148,CUST0017,3271.31,risk_flag,send_soft_reminder,formal,"Haan dekhta hu, kal tak try karta hu payment karne ka.",promised_later,kal tak,low
-PAY00004,CUST0003,998.51,risk_flag,offer_payment_plan,empathetic,"Haan bhai samajhta hoon, thoda tight chal raha hai scene. Next week salary aane do, 7 ko pakka clear kar dunga ye amount.",promised_later,7 tareek,high
-PAY00011,CUST0039,3386.16,customer_action_needed,send_update_reminder,empathetic,"Ah okay, sorry forgot to update the new card. Let me do it right now.",paid_immediately,,
-PAY00045,CUST0013,3927.08,risk_flag,send_soft_reminder,formal,"Namaste, theek hai, main abhi check karke payment complete kar deta hoon.",paid_immediately,,
-PAY00063,CUST0042,2582.76,customer_action_needed,send_update_reminder,empathetic,"Haan theek hai, kal salary aane do, fir karti hu update.",promised_later,kal,high
-PAY00065,CUST0054,1646.62,customer_action_needed,send_update_reminder,formal,"Mera card already working hai, phir bhi baar baar payment fail kyu ho raha hai? Thoda time dijiye, main baad mein try karti hu.",ignored,,
-PAY00067,CUST0010,3978.89,customer_action_needed,send_update_reminder,empathetic,"Bhai, pichli baar bhi same issue hua tha. Aaj shaam ko 6 baje tak karta hu, thoda busy hu abhi.",promised_later,aaj shaam ko 6 baje tak,medium
-PAY00090,CUST0031,2452.73,customer_action_needed,send_update_reminder,casual,"Arre yaar card block ho gaya tha isiliye fail hua hoga. Kal subah pehla kaam yahi kar deti hu, abhi thoda busy hu.",promised_later,kal subah,high
-PAY00102,CUST0027,2341.32,risk_flag,send_soft_reminder,empathetic,"Haan bhai yaad hai, thoda tight chal raha hai scene. Kal shaam tak karta hu clear.",promised_later,kal shaam tak,medium
-PAY00108,CUST0020,3073.07,customer_action_needed,send_update_reminder,empathetic,"Ah okay, card expired ho gaya tha shayad. Let me update it right now.",paid_immediately,,
-PAY00109,CUST0021,3137.69,customer_action_needed,send_update_reminder,formal,"Okay, let me check why it failed. I will update the card and pay it now.",paid_immediately,,
-PAY00136,CUST0014,2321.81,customer_action_needed,send_update_reminder,empathetic,"Ah sorry, forgot to update the card. Let me do it right now.",paid_immediately,,
+PAY00003,CUST0053,3677.79,customer_action_needed,send_update_reminder,casual,"Arre bhai pichli baar bhi yehi error aa gaya tha, mera card toh theek chal raha hai. Kal karta hu update.",promised_later,kal,medium
+PAY00004,CUST0003,998.51,risk_flag,offer_payment_plan,empathetic,"Haan bhai, thoda tight chal raha hai is mahine. Next Friday tak salary aayegi, tab pakka clear kar dunga yeh amount.",promised_later,Next Friday,high
+PAY00005,CUST0049,1831.44,risk_flag,send_soft_reminder,formal,"Okay, let me check and pay it now.",paid_immediately,,
+PAY00007,CUST0047,2007.82,risk_flag,send_soft_reminder,casual,"Oh acha, let me check. Kar deti hu abhi 5 mins mein.",paid_immediately,,
+PAY00008,CUST0016,4405.89,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha maine. Aaj sham ko card change kar dunga.",promised_later,aaj sham ko,high
+PAY00011,CUST0039,3386.16,customer_action_needed,send_update_reminder,empathetic,"Ok done, maine card update kar diya hai. Check kar lijiye.",paid_immediately,,
+PAY00018,CUST0015,1199.31,customer_action_needed,send_update_reminder,formal,"Okay, let me check why it failed. I am doing it now.",paid_immediately,,
+PAY00022,CUST0002,497.34,risk_flag,send_soft_reminder,formal,"Okay, let me check and pay it now.",paid_immediately,,
+PAY00032,CUST0019,2242.93,customer_action_needed,send_update_reminder,empathetic,"Arre yaar, card expire ho gaya tha isliye fail hua. Kal salary aayegi tab pakka update karke pay kar dunga.",promised_later,kal,high
+PAY00033,CUST0016,4596.45,customer_action_needed,send_update_reminder,casual,"Arre yaar, pata nahi kyu fail ho gaya. Ruko abhi karta hu update.",paid_immediately,,
+PAY00034,CUST0018,1823.75,customer_action_needed,send_update_reminder,casual,"Arre yaar, pata nahi kyun fail ho gaya. Ruko abhi karta hu update.",paid_immediately,,
+PAY00037,CUST0054,1078.15,risk_flag,send_soft_reminder,formal,Aapka message formal hai par payment baar baar bank server ki wajah se fail ho raha hai. Main sham ko try karti hu.,promised_later,sham ko,medium
+PAY00041,CUST0014,4175.62,risk_flag,send_soft_reminder,empathetic,"Haan sorry, wo net thoda slow ho gaya tha. Main abhi 5 minutes mein dobara try karti hu.",paid_immediately,,
+PAY00043,CUST0039,2866.77,customer_action_needed,send_update_reminder,empathetic,"Okay, let me check. Actually card expired ho gaya tha naya add karna padega. Aaj shaam tak karti hu update.",promised_later,aaj shaam tak,high
+PAY00044,CUST0051,249.61,customer_action_needed,send_update_reminder,empathetic,"Haan bhai samajhta hu, par abhi card me thoda issue chal raha hai. Kal tak pakka update karke payment clear kar deta hu.",promised_later,kal tak,high
+PAY00045,CUST0013,3927.08,risk_flag,send_soft_reminder,formal,"Achha, let me check. Main abhi pay kar deta hu.",paid_immediately,,
+PAY00050,CUST0031,2874.44,risk_flag,offer_payment_plan,empathetic,"Haan yaar thoda tight chal raha hai scene. Aap isko do installments me kar do toh better rahega, next week salary aate hi bacha hua bhi de dungi.",promised_later,next week,medium
+PAY00058,CUST0043,2829.94,risk_flag,send_soft_reminder,casual,"Haan bhai, dekhta hu. Aaj shaam tak kar deta hu clear.",promised_later,aaj shaam tak,medium
+PAY00060,CUST0015,2597.98,customer_action_needed,send_update_reminder,formal,"Let me check, I will update the card and complete the payment in some time.",paid_immediately,,
+PAY00062,CUST0060,509.22,risk_flag,send_soft_reminder,empathetic,"Haan sorry, wo net thoda slow tha. Main abhi try karta hu 5 mins me.",paid_immediately,,
+PAY00063,CUST0042,2582.76,customer_action_needed,send_update_reminder,empathetic,"Haan theek hai, kal salary aane do, kal pakka update karke payment kar dunga.",promised_later,kal,high
+PAY00065,CUST0054,1646.62,customer_action_needed,send_update_reminder,formal,"Bar bar payment kyun fail hota hai samajh nahi aata, mera card toh theek chal raha hai. Main sham ko try karti hu dobara.",promised_later,sham ko,medium
+PAY00067,CUST0010,3978.89,customer_action_needed,send_update_reminder,empathetic,"Haan bhai samajhta hu, par abhi thoda tight chal raha hai. Weekend tak karta hu clear.",promised_later,weekend tak,medium
+PAY00068,CUST0013,1051.26,customer_action_needed,send_update_reminder,formal,"Okay, checking my card details now. Will update and complete the payment in 5 minutes.",paid_immediately,,
+PAY00069,CUST0047,2500.24,risk_flag,send_soft_reminder,casual,"Arre haan, dekha maine. Aaj office mein thoda busy hu, shaam tak pakka clear kar deti hu.",promised_later,shaam tak,high
+PAY00073,CUST0045,2861.75,customer_action_needed,send_update_reminder,casual,"Oh acha, let me check. Karte hain abhi update.",paid_immediately,,
+PAY00074,CUST0051,3910.11,customer_action_needed,send_update_reminder,empathetic,"Haan bhai samajhta hu, thoda tight chal raha hai abhi. Kal shaam tak karta hu update.",promised_later,kal shaam tak,medium
+PAY00079,CUST0010,3516.29,customer_action_needed,send_update_reminder,empathetic,"Haan bhai samajhta hoon, mera card thoda issue de raha hai. Kal salary aane do, kal pakka subah tak kar deta hu payment.",promised_later,kal subah,high
+PAY00087,CUST0023,1369.66,risk_flag,send_soft_reminder,casual,"Haan bhai dekhta hu, shaam tak kar deta hu",promised_later,shaam tak,medium
+PAY00088,CUST0003,4031.44,risk_flag,send_soft_reminder,empathetic,"Haan bhai, dekhta hu aaj shaam tak. Salary aane waali hai toh kar deta hu clear.",promised_later,aaj shaam tak,medium
+PAY00090,CUST0031,2452.73,customer_action_needed,send_update_reminder,casual,"Yaar pichle hafte hi toh update kiya tha, pata nahi kyu fail ho jata hai baar baar. Kal subah office pahunch ke karta hu thik.",promised_later,kal subah,high
+PAY00094,CUST0005,733.98,risk_flag,send_soft_reminder,casual,"Haan bhai dekhta hu, yaad hi nahi tha. Aaj raat ko karta hu payment.",promised_later,aaj raat ko,medium
+PAY00096,CUST0001,1114.21,risk_flag,send_soft_reminder,formal,"Haan dekhta hu, weekend tak karta hu.",promised_later,weekend tak,low
+PAY00101,CUST0054,1229.43,risk_flag,offer_payment_plan,empathetic,"Thank you for understanding. Thoda tight chal raha hai abhi, main next week Tuesday tak payment clear kar dungi.",promised_later,next week Tuesday,medium
+PAY00102,CUST0027,2341.32,risk_flag,send_soft_reminder,casual,"Haan bhai dekhta hu, thoda tight chal raha hai scene. Weekend tak karta hu.",promised_later,weekend tak,medium
+PAY00108,CUST0020,3073.07,customer_action_needed,send_update_reminder,empathetic,"Ah okay, card expired ho gaya tha shayad. Let me update it right now, 2 mins.",paid_immediately,,
+PAY00109,CUST0021,3137.69,customer_action_needed,send_update_reminder,formal,"Okay, checking my card details now and completing the transaction.",paid_immediately,,
+PAY00112,CUST0014,3448.4,risk_flag,send_soft_reminder,empathetic,"Ah okay, thank you for letting me know. Bank server down hoga shayad. Main abhi 10 minute me karti hu.",paid_immediately,,
+PAY00113,CUST0018,2690.3,customer_action_needed,send_update_reminder,casual,"Arre haan dekha maine, yaad nahi raha tha. Abhi karta hu update.",paid_immediately,,
+PAY00114,CUST0060,3802.35,risk_flag,offer_payment_plan,formal,"Achha theek hai, installment wala option bhej do link par, mai aaj shaam tak clear kar deta hu.",promised_later,aaj shaam tak,high
+PAY00116,CUST0027,4034.34,risk_flag,send_soft_reminder,casual,"Haan bhai dekhta hu, thoda tight chal raha hai scene. Kal sham tak karta hu try.",promised_later,kal sham tak,medium
+PAY00121,CUST0030,1231.23,risk_flag,send_soft_reminder,empathetic,"Oh acha, thik hai. Aaj shaam ko 6 baje ke baad pakka try karti hu, wo time pe ho jana chahiye.",promised_later,aaj shaam ko 6 baje ke baad,high
+PAY00123,CUST0018,2066.81,customer_action_needed,send_update_reminder,casual,"Arrey haan, dekha maine. Aaj sham ko karta hu update, thoda busy hu abhi.",promised_later,aaj sham ko,medium
+PAY00127,CUST0038,1853.81,customer_action_needed,send_update_reminder,formal,"Aapka message samajh aa gaya, par mera card already active hai. Pata nahi kyu bar bar fail ho raha hai. Main shaam ko try karti hu.",promised_later,shaam ko,medium
+PAY00128,CUST0008,3589.06,risk_flag,offer_payment_plan,empathetic,"Arre nahi yaar, financial crunch nahi hai, bas card expire ho gaya tha isliye fail hua! Main abhi naya card update karke pay kar deti hu.",paid_immediately,,
+PAY00129,CUST0037,1682.24,customer_action_needed,send_update_reminder,casual,"Arre haan, dekha maine. Aaj thoda busy hu, raat ko ghar jaake karta hu update.",promised_later,raat ko,medium
+PAY00130,CUST0059,1046.03,risk_flag,send_soft_reminder,casual,"Arre haan, dekha nahi tha. Abhi karta hu pay.",paid_immediately,,
+PAY00131,CUST0028,1203.6,customer_action_needed,send_update_reminder,empathetic,"Haan dekhti hu, kal tak try karti hu update karne ka.",promised_later,kal tak,low
+PAY00136,CUST0014,2321.81,customer_action_needed,send_update_reminder,empathetic,"Arey haan, woh card expire ho gaya tha isliye fail hua hoga. Main abhi naya card update karke payment kar deti hoon.",paid_immediately,,
+PAY00140,CUST0052,247.59,risk_flag,send_soft_reminder,formal,"Arre haan, dekha maine. Abhi karke bhejti hu.",paid_immediately,,
+PAY00142,CUST0044,553.06,customer_action_needed,send_update_reminder,empathetic,"Haan yaad hai, thoda tight chal raha hai is month. Salary aane do 5th ko, tabhi karta hu clear.",promised_later,5th ko salary aane par,high
+PAY00145,CUST0013,2931.64,customer_action_needed,send_update_reminder,formal,"Okay, let me check why it failed. I will update the card and clear this in 10 minutes.",paid_immediately,,
