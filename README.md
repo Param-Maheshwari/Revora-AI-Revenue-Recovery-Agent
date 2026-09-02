@@ -182,6 +182,7 @@ This suggests the right tone depends on *why* the payment failed, not a single u
 
 ## Assumptions, stated explicitly
 
+- **Diagnosis input is the payment gateway's own failure response** (e.g. "declined by issuing bank - do not honor, code 05"), not investigative guesswork — the AI classifies and reasons about text a real gateway already provides automatically. It diagnoses *involuntary* payment failures, not *voluntary* subscription cancellations (a customer choosing to leave) — those need different signals (usage decline, cancellation-flow data) outside this build's scope.
 - **Promise-keep probability** varies by the customer's stated payment-behavior history (25%–85% baseline), further adjusted ±15% by how firm/specific their simulated promise sounds (extracted by the same LLM call that generates their reply) — not a flat constant.
 - **auto_retry** actions (transient/technical failures) are excluded from recovery-rate metrics — they're a technical fix, not an AI-driven recovery intervention.
 - **Compliance time-window checks** use a simulated per-payment attempt hour derived from a hash of the `payment_id` rather than the system's real clock, so results are reproducible regardless of when — or in what order — the pipeline is run. Because the hour depends only on the payment's own id, the batch pipeline and the live demo assign the same hour to the same payment.
