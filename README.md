@@ -59,6 +59,7 @@ flowchart TD
 ```
 revenue-recovery-agent/        # pipeline scripts, FastAPI backend, data
   ├── data/                    # synthetic dataset + all pipeline outputs (CSV/JSON)
+  ├── _data_backup/            # output from an earlier validation run on a second synthetic dataset — kept for reference, not used by the running app
   ├── generate_data.py         # synthetic payment + customer dataset generator
   ├── diagnoser.py             # Stage 2 — root-cause diagnosis (batch)
   ├── intervention_chooser.py  # Stage 3 — action + tone selection (batch)
