@@ -168,14 +168,14 @@ On a synthetic batch of **150 payments**:
 | Formal | 85.7% | 12/14 |
 | Empathetic | 57.1% | 12/21 |
 
-**The more interesting finding is contextual, not a flat ranking.** Broken down by failure category, the best-performing tone changes:
+**The more interesting finding is contextual, not a flat ranking.** Broken down by failure category, the best-performing tone changes — and while the specific winner per category has shifted between runs, one pattern has held consistently across both:
 
-- **"Needs customer action" failures** (e.g. expired card) → **casual** wins (100%)
-- **"Risk flag" failures** (repeated failures, fraud signals) → **formal** wins (85.7%)
+- **"Needs customer action" failures** (e.g. expired card) → **casual** has won in both runs so far (88.9% and 100%)
+- **"Risk flag" failures** (repeated failures, fraud signals) → the top tone has flipped between runs (empathetic, then formal) — but **casual has landed in the middle both times**, never the top performer here, never the weakest either
 
-This suggests the right tone depends on *why* the payment failed, not a single universal "best" tone — a risk-flagged customer responds better to a direct, formal approach, while a routine action-needed customer responds better to a casual nudge.
+This suggests the right tone depends on *why* the payment failed, not a single universal "best" tone.
 
-*A note on these numbers: recovery outcomes are simulated by an LLM customer-persona reasoning over each message and customer profile, not real customer data. The tone ranking is a measured hypothesis this system generates consistently, not a proven real-world result — and with sample sizes this small (single-digit to low-double-digit per cell), re-running the pipeline can shift individual cell percentages, though the overall pattern of "context changes the best tone" has held across runs.*
+*A note on these numbers: recovery outcomes are simulated by an LLM customer-persona reasoning over each message and customer profile, not real customer data. With sample sizes this small (single-digit to low-double-digit per cell), the specific tone that "wins" a category can flip between runs — as it did for Risk flag — even though the broader pattern (context changes which tone works best) has held across both runs observed. Treat this as a measured hypothesis the system generates consistently, not a proven, stable real-world ranking.*
 
 ---
 
